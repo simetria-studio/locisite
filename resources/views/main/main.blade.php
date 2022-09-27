@@ -23,12 +23,25 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}"><img src="/img/loci-logo.png" alt=""></a>
+                <a class="navbar-brand img-fluid" href="{{ url('/') }}"><img src="/img/loci-logo.png"
+                        alt=""></a>
+                <div class="sociais-top d-md-none">
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/loci_lab/"><i
+                                class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=553197370135&text&type=phone_number&app_absent=0"><i
+                                class="bi bi-whatsapp"></i></a>
+                    </li>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mb-2 mb-lg-0 ">
                         <li class="nav-item">
@@ -43,17 +56,29 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('contato') }}">Contato</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ url('noticias') }}">Notícias</a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item">
                             <a class="nav-link" href="#">Compre aqui</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.portalgeeklab.com.br/portal/" role="button">Área do Veterinário</a>
+                            <a class="nav-link btn btn-secondary text-light" target="_blank"
+                                href="https://www.portalgeeklab.com.br/portal/">Área do
+                                Veterinário</a>
                         </li>
                     </ul>
-
+                </div>
+                <div class="sociais-top d-none  d-md-flex">
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/loci_lab/"><i
+                                class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=553197370135&text&type=phone_number&app_absent=0"><i
+                                class="bi bi-whatsapp"></i></a>
+                    </li>
                 </div>
             </div>
         </nav>
@@ -119,10 +144,13 @@
                 <div class="col-md-4 sociais mb-2">
                     <li>
 
-                        <a target="_blank" href="https://www.instagram.com/loci_lab/"><i class="bi bi-instagram"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/loci_lab/"><i
+                                class="bi bi-instagram"></i></a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=553197370135&text&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i></a>
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send/?phone=553197370135&text&type=phone_number&app_absent=0"><i
+                                class="bi bi-whatsapp"></i></a>
                     </li>
                 </div>
                 <!-- COPYRIGHT -->

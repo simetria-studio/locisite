@@ -10,7 +10,7 @@
                         <img src="/img/eos-icons_test-tube.png" class="img-fluid" alt="">
                         <div class="card-body">
                             <div class="card-title ">
-                                <h5>Genotipagem Animal</h5>
+                                <h5>AIE e Mormo</h5>
                             </div>
                         </div>
                     </button>

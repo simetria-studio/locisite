@@ -4,7 +4,7 @@
     <div id="carouselExampleDark" class="carousel1  carousel carousel-fade  mb-5 " data-bs-ride="carousel">
         <div class="carousel-inner ">
             <div class="carousel-item active " data-bs-interval="2000">
-                <img src="{{ url('img/banner1.jpg') }}" class="d-block w-100" alt="...">
+                <img src="{{ url('img/banner.jpeg') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="{{ url('img/banner2.jpg') }}" class="d-block w-100" alt="...">
@@ -29,8 +29,8 @@
         </button>
     </div>
     <div class="container d-none d-md-block ">
-        <div class="row ">
-            <div class="col-3 mb-3">
+        <div class="row justify-content-between ">
+            <div class="col-2 text-center  mb-3">
                 <div class="card card1  ">
                     <a class="emoji" href="{{ url('dna') }}">
                         <img src="/img/emoji-dna.png" class="img-fluid" alt="">
@@ -43,9 +43,9 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-3 ">
+            <div class="col-2 mb-3 ">
                 <div class="card card1 text-center ">
-                    <a class="emoji" href="{{ url('dna') }}">
+                    <a class="emoji" href="{{ url('homozigoze') }}">
                         <img src="/img/Cavalo.png" alt="">
 
                         <div class="card-body">
@@ -58,9 +58,9 @@
                 </div>
             </div>
 
-            <div class="col-3 mb-3">
+            <div class="col-2 mb-3">
                 <div class="card card1 text-center ">
-                    <a class="emoji" href="{{ url('dna') }}">
+                    <a class="emoji" href="{{ url('beta-caseina') }}">
                         <img src="/img/caseina.png" alt="">
 
                         <div class="card-body">
@@ -71,10 +71,22 @@
                     </a>
                 </div>
             </div>
-
-            <div class=" col-3  mb-3">
+            <div class=" col-2  mb-3">
                 <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('sorologia.html') }}">
+                    <a class="emoji" href="{{ url('dna') }}">
+                        <img src="{{ asset('img/parentesco.png') }}" alt="">
+
+                        <div class="card-body">
+                            <div class="card-title ">
+                                <h5>Verificação de Parentesco</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class=" col-2  mb-3">
+                <div class="card card1 text-center">
+                    <a class="emoji" href="{{ url('sorologia') }}">
                         <img src="/img/eos-icons_test-tube.png" alt="">
 
                         <div class="card-body">
@@ -85,8 +97,11 @@
                     </a>
                 </div>
             </div>
+            
         </div>
     </div>
+
+     {{-- Mobile --}}
     <div class="container d-block d-md-none mt-5 ">
         <div class="row ">
             <div class="col-6 mb-3">
@@ -146,7 +161,7 @@
 
 
     <!-- DUVIDAS  -->
-    <div class="container">
+    <div class="container mt-5">
         <div class="duvidas">
             <div class="text-center mb-5">
                 <h3>Duvidas frequentes?</h3>

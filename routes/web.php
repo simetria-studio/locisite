@@ -31,3 +31,9 @@ Route::get('/contato', function () {
 Route::get('/noticias', function () {
     return view('pages.noticias');
 });
+Route::get('/beta-caseina', function () {
+    return view('pages.beta-caseina');
+});
+Route::get('/homozigoze', function () {
+    return view('pages.homozigoze');
+});
