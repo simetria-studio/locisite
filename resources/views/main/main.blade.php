@@ -45,22 +45,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mb-2 mb-lg-0 ">
                         <li class="nav-item">
-                            <a class="nav-link" id="sobre-nos" href="{{ url('sobre-nos') }}">Sobre Nós</a>
+                            <a class="nav-link btn btn-primary text-light" id="sobre-nos" href="{{ url('sobre-nos') }}">Sobre Nós</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="{{ url('sorologia') }}">Sorologia</a>
+                            <a class="nav-link btn btn-primary text-light" href="{{ url('sorologia') }}">Sorologia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('dna') }}">DNA</a>
+                            <a class="nav-link btn btn-primary text-light" href="{{ url('dna') }}">DNA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('contato') }}">Contato</a>
+                            <a class="nav-link btn btn-primary text-light" href="{{ url('contato') }}">Contato</a>
                         </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ url('noticias') }}">Notícias</a>
                         </li> --}}
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Compre aqui</a>
+                            <a class="nav-link btn btn-primary text-light" href="#">Compre aqui</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-secondary text-light" target="_blank"
