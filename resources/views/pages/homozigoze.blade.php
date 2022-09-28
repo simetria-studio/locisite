@@ -4,8 +4,8 @@
     <div class="container mt-5">
         <div class="row">
             <div class=" order-1 col-md-6  content">
-                <div class="mb-3 imagem-feia">
-                    <img src="{{ asset('img/homozigose.jpg') }}" class=" img-fluid d-block w-100" alt="">
+                <div class="mb-3 imagem">
+                    {{-- <img src="{{ asset('img/homozigose.jpg') }}" class=" img-fluid d-block w-100" alt=""> --}}
                 </div>
                 <div class="text-center ">
                     <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank"
@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-6 content">
                 <div class="homozigosedzou">
-                    <h6 class=" text-primary">
+                    <h6 class=" text-primary text-center">
                         <strong class="text-uppercase">
                             HOMOZIGOSE TOBIANA​
 
@@ -34,7 +34,7 @@
                             manchas irregulares que se estendem para baixo do pescoço e peito.​
                         </small>
                     </p>
-                    <p class="text-end ">
+                    <p class="text-start ">
                         <strong>
                             <span class="text-primary">
                                 <small>Qual o padrão genético da HOMOZIGOSE TOBIANA? <br>
@@ -47,7 +47,7 @@
                             pelagem.​
                         </small>
                     </p>
-                    <p class="text-center">
+                    <p class="text-start">
                         <small>
                             <strong>
                                 <span class="text-primary">

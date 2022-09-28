@@ -102,7 +102,7 @@
 
                         <div class="card-body">
                             <div class="card-title ">
-                                <h5>Ensaio Sorológico AIE</h5>
+                                <h5>AIE</h5>
                             </div>
                         </div>
                     </a>
@@ -115,7 +115,7 @@
 
                         <div class="card-body">
                             <div class="card-title ">
-                                <h5>Ensaio Sorológico Mormo</h5>
+                                <h5>Mormo</h5>
                             </div>
                         </div>
                     </a>
