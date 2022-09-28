@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-6 order-1 content">
                 <div class="imagem-feia mb-5">
-                    <img src="{{ asset('img/betacaseina.jpg') }}" class=" d-block w-100" alt="">
+                    <img src="{{ url('img/betacaseina.jpg') }}" class=" d-block w-100" alt="">
                 </div>
                 <div class="text-center mb-3">
                     <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank" rel="noopener noreferrer">Solicitar agora</a>

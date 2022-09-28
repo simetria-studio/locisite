@@ -3,21 +3,22 @@
 @section('content')
     <div id="carouselExampleDark" class="carousel1  carousel carousel-dark carousel-fade  mb-5 " data-bs-ride="carousel">
         <div class="carousel-inner ">
-            <div class="carousel-item active " data-bs-interval="2000">
+            <div class="carousel-item active " data-bs-interval="5000">
                 <img src="{{ url('img/banner.jpeg') }}" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{ url('img/banner2.jpg') }}" class="d-block w-100" alt="...">
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="{{ url('img/banner5.jpg') }}" class="d-block w-100 " alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{ url('img/banner3.jpg') }}" class="d-block w-100 " alt="...">
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="{{ url('img/cavalo3.jpg') }}" class="d-block w-100 " alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{ url('img/banner4.jpg') }}" class="d-block w-100 " alt="...">
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="{{ url('img/boi.jpg') }}" class="d-block w-100 " alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="{{ url('img/banner5.jfif') }}" class="d-block w-100 " alt="...">
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="{{ url('img/laboratorio.jpg') }}" class="d-block w-100 " alt="...">
             </div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -43,7 +44,7 @@
         <div class="row justify-content-between ">
             <div class="col-2 text-center  mb-3">
                 <div class="card card1  ">
-                    <a class="emoji" href="{{ url('dna') }}">
+                    <a class="emoji" href="{{ url('genotipagem') }}">
                         <img src="/img/emoji-dna.png" class="img-fluid" alt="">
                         <div class="card-body">
                             <div class="card-title ">

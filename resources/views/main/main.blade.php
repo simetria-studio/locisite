@@ -91,8 +91,8 @@
         @yield('content')
     </main>
     <!-- PRÉ    FOOTER -->
-    <div class="container ">
-        <div class="row">
+    <div class="container">
+        <div class="row mt-5">
             <div class="col-12 col-md-5 mb-5 mx-auto">
                 <div class="card text-center">
                     <div class="card-body">

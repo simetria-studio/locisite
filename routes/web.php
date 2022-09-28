@@ -37,3 +37,6 @@ Route::get('/beta-caseina', function () {
 Route::get('/homozigoze', function () {
     return view('pages.homozigoze');
 });
+Route::get('/genotipagem', function () {
+    return view('pages.genotipagem');
+});
