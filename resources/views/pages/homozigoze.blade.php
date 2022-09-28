@@ -1,19 +1,19 @@
 @extends('main.main')
 
 @section('content')
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6  img-genotipagem">
-                <div class="mb-5">
-                    <img src="{{ asset('img/homozigose.jpg') }}" class=" d-block w-100" alt="">
+            <div class=" order-1 col-md-6  content">
+                <div class="mb-3 imagem-feia">
+                    <img src="{{ asset('img/homozigose.jpg') }}" class=" img-fluid d-block w-100" alt="">
                 </div>
-                <div class="text-center mb-3">
+                <div class="text-center ">
                     <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank"
-                        rel="noopener noreferrer">Compre agora</a>
+                        rel="noopener noreferrer">Solicitar agora</a>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div>
+            <div class="col-md-6 content">
+                <div class="homozigosedzou">
                     <h6 class=" text-primary">
                         <strong class="text-uppercase">
                             HOMOZIGOSE TOBIANA​

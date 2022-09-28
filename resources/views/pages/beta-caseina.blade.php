@@ -1,18 +1,18 @@
 @extends('main.main')
 
 @section('content')
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6 order-1 img-genotipagem">
-                <div class="mb-5">
+            <div class="col-md-6 order-1 content">
+                <div class="imagem-feia mb-5">
                     <img src="{{ asset('img/betacaseina.jpg') }}" class=" d-block w-100" alt="">
                 </div>
                 <div class="text-center mb-3">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank" rel="noopener noreferrer">Compre agora</a>
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank" rel="noopener noreferrer">Solicitar agora</a>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div>
+            <div class="col-md-6 content">
+                <div class="m-2">
                     <h6 class=" text-primary">
                         <strong class="text-uppercase">
                             Beta Caseína

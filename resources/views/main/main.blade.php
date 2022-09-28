@@ -21,8 +21,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-light">
                 <a class="navbar-brand img-fluid" href="{{ url('/') }}"><img src="/img/loci-logo.png"
                         alt=""></a>
                 <div class="sociais-top d-md-none">
@@ -43,28 +43,32 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                    <ul class="navbar-nav  mb-2 ">
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light" id="sobre-nos" href="{{ url('sobre-nos') }}">Sobre Nós</a>
+                            <a class="nav-link btn btn-primary text-light mb-3" id="sobre-nos"
+                                href="{{ url('sobre-nos') }}">Sobre Nós</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link btn btn-primary text-light" href="{{ url('sorologia') }}">Sorologia</a>
+                            <a class="nav-link btn btn-primary text-light mb-3"
+                                href="{{ url('sorologia') }}">Sorologia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light" href="{{ url('dna') }}">DNA</a>
+                            <a class="nav-link btn btn-primary text-light mb-3" href="{{ url('dna') }}">DNA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light" href="{{ url('contato') }}">Contato</a>
+                            <a class="nav-link btn btn-primary text-light mb-3" href="{{ url('#') }}">Perguntas
+                                <br> frequentes</a>
                         </li>
                         {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ url('noticias') }}">Notícias</a>
                         </li> --}}
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light" href="#">Compre aqui</a>
+                            <a class="nav-link btn btn-primary text-light mb-3" href="#">Solicite seu <br> exame
+                                aqui</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-secondary text-light" target="_blank"
-                                href="https://www.portalgeeklab.com.br/portal/">Área do
+                                href="https://www.portalgeeklab.com.br/portal/">Área do <br>
                                 Veterinário</a>
                         </li>
                     </ul>
@@ -80,14 +84,14 @@
                                 class="bi bi-whatsapp"></i></a>
                     </li>
                 </div>
-            </div>
+        </div>
         </nav>
     </header>
     <main class="mb-5">
         @yield('content')
     </main>
     <!-- PRÉ    FOOTER -->
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <div class="col-12 col-md-5 mb-5 mx-auto">
                 <div class="card text-center">
@@ -173,23 +177,7 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
-    <script>
-        $('#mostrar').click(
-            function() {
-                $('#genotipagem').toggle('slow')
-            }
-        );
-        $('#mostrar1').click(
-            function() {
-                $('#homozigoze').toggle('slow')
-            }
-        );
-        $('#mostrar3').click(
-            function() {
-                $('#caseina').toggle('slow')
-            }
-        )
-    </script>
+
 </body>
 
 </html>

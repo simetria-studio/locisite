@@ -1,7 +1,7 @@
 @extends('main.main')
 
 @section('content')
-    <div id="carouselExampleDark" class="carousel1  carousel carousel-fade  mb-5 " data-bs-ride="carousel">
+    <div id="carouselExampleDark" class="carousel1  carousel carousel-dark carousel-fade  mb-5 " data-bs-ride="carousel">
         <div class="carousel-inner ">
             <div class="carousel-item active " data-bs-interval="2000">
                 <img src="{{ url('img/banner.jpeg') }}" class="d-block w-100" alt="...">
@@ -28,7 +28,18 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="container d-none d-md-block ">
+    <div class="container mb-5">
+        <div class="text-center text-primary">
+            <h5>
+                A Loci Genética Laboratorial é uma empresa de biotecnologia que nasceu com o propósito de trazer para o
+                mercado técnica moderna de análise genéticas por meio do uso da biologia molecular.
+            </h5>
+        </div>
+    </div>
+    <div class="container d-none d-md-block  mb-5  ">
+        <div class="services">
+            <span class="mb-5 service bg-primary" >SERVIÇOS</span>
+        </div>
         <div class="row justify-content-between ">
             <div class="col-2 text-center  mb-3">
                 <div class="card card1  ">
@@ -42,7 +53,19 @@
                     </a>
                 </div>
             </div>
+            <div class=" col-2  mb-3">
+                <div class="card card1 text-center">
+                    <a class="emoji" href="{{ url('dna') }}">
+                        <img src="{{ asset('img/parentesco.png') }}" alt="">
 
+                        <div class="card-body">
+                            <div class="card-title ">
+                                <h5>Verificação de Parentesco</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
             <div class="col-2 mb-3 ">
                 <div class="card card1 text-center ">
                     <a class="emoji" href="{{ url('homozigoze') }}">
@@ -71,14 +94,15 @@
                     </a>
                 </div>
             </div>
+
             <div class=" col-2  mb-3">
                 <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('dna') }}">
-                        <img src="{{ asset('img/parentesco.png') }}" alt="">
+                    <a class="emoji" href="{{ url('sorologia') }}">
+                        <img src="{{ asset('img/aie.png') }}" alt="">
 
                         <div class="card-body">
                             <div class="card-title ">
-                                <h5>Verificação de Parentesco</h5>
+                                <h5>Ensaio Sorológico AIE</h5>
                             </div>
                         </div>
                     </a>
@@ -87,21 +111,21 @@
             <div class=" col-2  mb-3">
                 <div class="card card1 text-center">
                     <a class="emoji" href="{{ url('sorologia') }}">
-                        <img src="/img/eos-icons_test-tube.png" alt="">
+                        <img src="{{ asset('img/mormo.png') }}" alt="">
 
                         <div class="card-body">
                             <div class="card-title ">
-                                <h5>Ensaio Sorológico (AIE e Mormo)</h5>
+                                <h5>Ensaio Sorológico Mormo</h5>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
-     {{-- Mobile --}}
+    {{-- Mobile --}}
     <div class="container d-block d-md-none mt-5 ">
         <div class="row ">
             <div class="col-6 mb-3">
@@ -160,7 +184,7 @@
     </div>
 
 
-    <!-- DUVIDAS  -->
+    {{-- <!-- DUVIDAS  -->
     <div class="container mt-5">
         <div class="duvidas">
             <div class="text-center mb-5">
@@ -244,5 +268,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 @endsection
