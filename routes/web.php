@@ -40,3 +40,12 @@ Route::get('/homozigoze', function () {
 Route::get('/genotipagem', function () {
     return view('pages.genotipagem');
 });
+Route::get('/parentesco', function () {
+    return view('pages.parentesco');
+});
+Route::get('/aie', function () {
+    return view('pages.aie');
+});
+Route::get('/mormo', function () {
+    return view('pages.mormo');
+});

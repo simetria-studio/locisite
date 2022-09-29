@@ -7,15 +7,16 @@
 .form-control::placeholder {
     color: #000;
 }
-.navbar-brand {
-    width: 150px;
+.logo {
+    img {
+        width: 200px;
+    }
 }
 .navbar {
-    background-color: #9685a3;
     .nav-item {
         display: flex;
         justify-content: center;
-        padding-left: 20px;
+        padding-left: 50px;
         .nav-link {
             min-width: 100px;
             height: 100%;
@@ -44,6 +45,8 @@
     text-decoration: none;
     display: flex;
     font-size: 30px;
+    margin-right: 30px;
+
     a {
         padding-left: 10px;
     }
@@ -55,7 +58,6 @@
 .carousel1 > .carousel-inner > .carousel-item > img {
     max-width: 100%;
     max-height: 500px;
-
 }
 .services {
     display: flex;
@@ -257,5 +259,4 @@ footer {
 }
 
 @media (max-width: 2560px) {
-    
 }

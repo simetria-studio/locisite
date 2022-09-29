@@ -23,8 +23,9 @@
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg bg-light">
-                <a class="navbar-brand img-fluid" href="{{ url('/') }}"><img src="/img/loci-logo.png"
-                        alt=""></a>
+                <a class="logo" href="{{ url('/') }}">
+                    <img src="{{ asset('img/loci-logo.png') }}" alt="">
+                </a>
                 <div class="sociais-top d-md-none">
                     <li>
                         <a target="_blank" href="https://www.instagram.com/loci_lab/"><i
@@ -59,9 +60,6 @@
                             <a class="nav-link btn btn-primary text-light mb-3" href="{{ url('#') }}">Perguntas
                                 <br> frequentes</a>
                         </li>
-                        {{-- <li class="nav-item">
-                            <a class="nav-link" href="{{ url('noticias') }}">Notícias</a>
-                        </li> --}}
                         <li class="nav-item">
                             <a class="nav-link btn btn-primary text-light mb-3" href="#">Solicite seu <br> exame
                                 aqui</a>

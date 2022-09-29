@@ -1,13 +1,13 @@
 @extends('main.main')
 
 @section('content')
-    <div id="carouselExampleDark" class="carousel1  carousel carousel-dark carousel-fade  mb-5 " data-bs-ride="carousel">
+    <div id="carouselExampleDark" class="carousel1  carousel carousel-dark carousel-fade  mb-5 mt-3 " data-bs-ride="carousel">
         <div class="carousel-inner ">
             <div class="carousel-item active " data-bs-interval="5000">
                 <img src="{{ url('img/banner.jpeg') }}" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{ url('img/banner5.jpg') }}" class="d-block w-100 " alt="...">
+                <img src="{{ url('img/banner5.jfif') }}" class="d-block w-100 " alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <img src="{{ url('img/cavalo3.jpg') }}" class="d-block w-100 " alt="...">
@@ -56,7 +56,7 @@
             </div>
             <div class=" col-2  mb-3">
                 <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('dna') }}">
+                    <a class="emoji" href="{{ url('parentesco') }}">
                         <img src="{{ asset('img/parentesco.png') }}" alt="">
 
                         <div class="card-body">
@@ -98,7 +98,7 @@
 
             <div class=" col-2  mb-3">
                 <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('sorologia') }}">
+                    <a class="emoji" href="{{ url('aie') }}">
                         <img src="{{ asset('img/aie.png') }}" alt="">
 
                         <div class="card-body">
@@ -111,7 +111,7 @@
             </div>
             <div class=" col-2  mb-3">
                 <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('sorologia') }}">
+                    <a class="emoji" href="{{ url('mormo') }}">
                         <img src="{{ asset('img/mormo.png') }}" alt="">
 
                         <div class="card-body">
