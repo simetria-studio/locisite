@@ -30,7 +30,7 @@
         </div>
         <div class="cards d-none d-md-block mb-5">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-3 colum mb-3">
+                <div class="col-md-3  mb-3">
                     <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
                             <div class="text-center py-4">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 colum  mb-3">
+                <div class="col-md-3   mb-3">
                     <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
                             <div class="text-center py-4">
@@ -93,7 +93,7 @@
                 <h2 class="mb-5 text-primary">Nossos Serviços</h2>
             </div>
             <div class="row ">
-                <div class="col-md-2 col-6 mb-3">
+                <div class="col-6 col-md-4 col-xl-2  mb-3">
                     <div class="link text-center">
 
                         <a href="{{ url('genotipagem') }}">
@@ -103,7 +103,7 @@
 
                     </div>
                 </div>
-                <div class=" col-md-2 col-6  mb-3">
+                <div class="col-6 col-md-4 col-xl-2   mb-3">
                     <div class="link text-center">
                         <a href="{{ url('parentesco') }}">
                             <img src="{{ asset('img/parentesco.png') }}" class="mb-1" alt=""> <br>
@@ -111,7 +111,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2 col-6 mb-3 ">
+                <div class="col-6 col-md-4 col-xl-2  mb-3 ">
                     <div class="link text-center ">
                         <a href="{{ url('homozigoze') }}">
                             <img src="/img/Cavalo.png" class="mb-1" alt=""><br>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 col-6 mb-3">
+                <div class="col-6 col-md-4 col-xl-2  mb-3">
                     <div class="link text-center ">
                         <a href="{{ url('beta-caseina') }}">
                             <img src="/img/caseina.png" class="mb-1" alt=""><br>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class=" col-md-2 col-6  mb-3">
+                <div class="col-6 col-md-4  col-xl-2  mb-3">
                     <div class="link text-center">
                         <a href="{{ url('aie') }}">
                             <img src="{{ asset('img/aie.png') }}" class="img-fluid mb-1" alt=""><br>
@@ -137,7 +137,7 @@
                         </a>
                     </div>
                 </div>
-                <div class=" col-md-2 col-6  mb-3">
+                <div class="col-6 col-md-4 col-xl-2   mb-3">
                     <div class="link text-center">
                         <a href="{{ url('mormo') }}">
                             <img src="{{ asset('img/mormo.png') }}" class="mb-1" alt=""> <br>
@@ -154,7 +154,7 @@
             <div class="row">
                 <div class="col-md-6 order-1  ">
                     <div class="card-mid">
-                        <p class="fs-5">
+                        <p class="card-mid-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et
