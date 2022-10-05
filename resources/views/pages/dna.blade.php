@@ -7,50 +7,34 @@
         </div>
         <div class="row ">
             <div class="col-sm-6 col-md-3 mb-3">
-                <div class="card card1 mx-auto mb-4 ">
-                    <a href="{{ url('genotipagem') }}" class="btn emoji">
-                        <img src="/img/emoji-dna.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Genotipagem Animal</h5>
-                            </div>
-                        </div>
+                <div class="link text-center">
+                    <a href="{{ url('genotipagem') }}">
+                        <img src="/img/emoji-dna.png" class=" mb-2" alt=""> <br>
+                        Genotipagem Animal
                     </a>
                 </div>
             </div>
             <div class=" col-sm-6  col-md-3 mb-3">
-                <div class="card card1 mx-auto mb-4">
-                    <a class="btn emoji" href="{{ url('parentesco') }}">
-                        <img src="{{ asset('img/parentesco.png') }}" alt="">
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Verificação de Parentesco</h5>
-                            </div>
-                        </div>
+                <div class="link text-center">
+                    <a href="{{ url('parentesco') }}">
+                        <img src="{{ asset('img/parentesco.png') }}" class=" mb-2" alt=""> <br>
+                        Verificação de Parentesco
                     </a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3 ">
-                <div class="card card1 mx-auto mb-4 ">
-                    <a type="button" href="{{ url('homozigoze') }}" class="btn emoji">
-                        <img src="/img/Cavalo.png" alt="">
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Homozigoze Tobiana</h5>
-                            </div>
-                        </div>
+                <div class="link text-center ">
+                    <a type="button" href="{{ url('homozigoze') }}">
+                        <img src="/img/Cavalo.png" class=" mb-2" alt=""> <br>
+                        Homozigoze Tobiana
                     </a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3 mb-3">
-                <div class="card card1 mx-auto mb-4 ">
-                    <a type="button" href="{{ url('beta-caseina') }}" class="btn emoji">
-                        <img src="/img/caseina.png" alt="">
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Beta Caseína Bovina</h5>
-                            </div>
-                        </div>
+                <div class="link text-center ">
+                    <a type="button" href="{{ url('beta-caseina') }}">
+                        <img src="/img/caseina.png" class=" mb-2" alt=""> <br>
+                        Beta Caseína Bovina
                     </a>
                 </div>
             </div>

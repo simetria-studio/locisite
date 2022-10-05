@@ -49,3 +49,6 @@ Route::get('/aie', function () {
 Route::get('/mormo', function () {
     return view('pages.mormo');
 });
+Route::get('/perguntas-frequentes', function () {
+    return view('pages.mormo');
+});

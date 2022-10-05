@@ -10,171 +10,120 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="{{ asset('css/cores.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/mediaquery.min.css') }}">
     <title>LociLab</title>
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <a class="logo" href="{{ url('/') }}">
-                    <img src="{{ asset('img/loci-logo.png') }}" alt="">
-                </a>
-                <div class="sociais-top d-md-none">
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/loci_lab/"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank"
-                            href="https://api.whatsapp.com/send/?phone=553197370135&text&type=phone_number&app_absent=0"><i
-                                class="bi bi-whatsapp"></i></a>
-                    </li>
+    <div class="ante-header bg-primary">
+        <div class="container">
+            <div class="navegacao">
+                <div class="row">
+                    <div class="email text-md-start text-center col-md-6 col-12 py-md-2">
+                        <i class="bi bi-envelope-fill text-light"></i>
+                        <span class="text-light">atendimento@locilab.com.br</span>
+                    </div>
+                    <div class="redes-sociais text-md-end text-center col-md-6 col-12 py-md-2">
+                        <a class="text-light" target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100080642630494"><i
+                                class="fs-5 bi bi-facebook"></i></a>
+                        <a class="text-light" target="_blank" href="https://www.instagram.com/loci_lab/"><i
+                                class="fs-5 bi bi-instagram"></i></a>
+                        <a class="text-light" target="_blank" href="https://wa.me/553197370135"><i
+                                class="fs-5 bi bi-whatsapp"></i></a>
+                    </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav  mb-2 ">
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light mb-3" id="sobre-nos"
-                                href="{{ url('sobre-nos') }}">Sobre Nós</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link btn btn-primary text-light mb-3"
-                                href="{{ url('sorologia') }}">Sorologia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light mb-3" href="{{ url('dna') }}">DNA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light mb-3" href="{{ url('#') }}">Perguntas
-                                <br> frequentes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-primary text-light mb-3" href="#">Solicite seu <br> exame
-                                aqui</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-secondary text-light" target="_blank"
-                                href="https://www.portalgeeklab.com.br/portal/">Área do <br>
-                                Veterinário</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="sociais-top d-none  d-md-flex">
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/loci_lab/"><i
-                                class="bi bi-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank"
-                            href="https://api.whatsapp.com/send/?phone=553197370135&text&type=phone_number&app_absent=0"><i
-                                class="bi bi-whatsapp"></i></a>
-                    </li>
-                </div>
+            </div>
         </div>
+    </div>
+    <header id="header">
+        <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+            <img src="{{ asset('img/logoloci.png') }}" alt="">
+        </a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul class="nav" id="menu" role="menu">
+                <li class="nav-item">
+                    <a href="{{ url('/') }}" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('sorologia') }}" class="nav-link ">Sorologia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('dna') }}" class="nav-link">Dna</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link ">Perguntas Frequentes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link ">Solicite seu exame</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn btn-secondary">AREA DO VETERINARIO</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main class="mb-5">
         @yield('content')
     </main>
-    <!-- PRÉ    FOOTER -->
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-12 col-md-5 mb-5 mx-auto">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">Contatos <i class="bi bi-telephone"></i></h5>
-                        <p class="card-text">31 3681-4331 <br>
-                            31 99737-0135 <br>
-                            atendimento@locilab.com.br
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-5 mb-5  mx-auto">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">Localização <i class="bi bi-geo-alt"></i></h5>
-                        <p class="card-text">
-                            Rua Coronel Durães, 170, slj 01, <br> Bela Vista - Lagoa Santa l MG <br>
-                            CEP: 33239-206
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer class="text-white">
+    <footer class="bg-primary">
         <div class="container">
-            <section class="py-3">
-                <form action="">
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <div class="col-auto">
-                            <p>
-                                <strong>Assine nossa Newslatter</strong>
-                            </p>
-                        </div>
-                        <div class="col-md-5 col-12">
-                            <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example29" class="form-control"
-                                    placeholder="Endereço de E-mail" />
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-outline-light mb-4">
-                                Assinar
-                            </button>
-                        </div>
+            <div class="row">
+                <div class="col-md-4 info">
+                    <div>
+                        <h4 class="text-uppercase">Contatos</h4>
+                        <p>
+                            31 3681-4331 <br>
+                            31 99737-0135 <br>
+                            atendimento@locilab.com.br <br>
+                        </p>
                     </div>
-                </form>
-            </section>
-            <div class="row text-center">
-                <!-- REDES SOCIAIS  -->
-                <div class="col-md-4 sociais mb-2">
-                    <li>
-
-                        <a target="_blank" href="https://www.instagram.com/loci_lab/"><i
+                </div>
+                <div class="col-md-4 info">
+                    <div>
+                        <h4 class="text-uppercase">Localização</h4>
+                        <p>
+                            Rua Coronel Durães, 170, slj 01, <br>
+                            Bela Vista - Lagoa Santa l MG <br>
+                            CEP: 33239-206 <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 info ">
+                    <div class="">
+                        <h4 class="text-uppercase">Siga-nos</h4>
+                        <a class="text-light fs-3 mx-2" target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100080642630494"><i
+                                class="bi bi-facebook"></i></a>
+                        <a class="text-light fs-3 mx-2" target="_blank" href="https://www.instagram.com/loci_lab/"><i
                                 class="bi bi-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank"
-                            href="https://api.whatsapp.com/send/?phone=553197370135&text&type=phone_number&app_absent=0"><i
-                                class="bi bi-whatsapp"></i></a>
-                    </li>
-                </div>
-                <!-- COPYRIGHT -->
-                <div class="col-md-4 mb-2">
-                    © 2022 Copyright:
-                    <a class="text-white" href="#">LOCI LAB</a>
-                </div>
-                <!-- Patrocinios -->
-                <div class="col-md-4 patrocinios mb-2">
-                    <img class="img-fluid" src="/img/inmetro.png" alt="">
-                    <img class="img-fluid" src="/img/isag.png" alt="">
-                    <img class="img-fluid" src="/img/minis.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-
 
     </footer>
+    <div class="copyright">
+        <div class="text-center py-1">
+            <p class="text-light my-auto">Labloci © 2022 Todos os Direitos Reservados </p>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
 
 </body>
 

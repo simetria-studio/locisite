@@ -22,21 +22,7 @@
         <div class="container">
             <div class="row">
                 <h3 class="text-primary text-center mb-4"><strong>História da Loci</strong> </h3>
-                <div class="col-4">
-                    <div id="simple-list-example"
-                        class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
-                        <a class="p-1 rounded " href="#simple-list-item-1">O nascimento</a>
-                        <a class="p-1 rounded" href="#simple-list-item-2">A história</a>
-                        <a class="p-1 rounded" href="#simple-list-item-3">Os clientes</a>
-                        <a class="p-1 rounded" href="#simple-list-item-4">Nossa equipe</a>
-                        <a class="p-1 rounded" href="#simple-list-item-5">Proposito</a>
-                        <a class="p-1 rounded" href="#simple-list-item-6">Abertos a inovação</a>
-                        <a class="p-1 rounded" href="#simple-list-item-7">Queremos ser reconhecidos</a>
-                        <a class="p-1 rounded" href="#simple-list-item-8">Nossos valores</a>
-                        <a class="p-1 rounded" href="#simple-list-item-9">Contato conosco</a>
-                    </div>
-                </div>
-                <div class="col-8 scrollspy-sobre">
+                <div class="col-12 scrollspy-sobre mb-5">
                     <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
                         data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
                         <h4 id="simple-list-item-1 " class="text-primary">O nascimento</h4>
@@ -108,7 +94,7 @@
                     </div>
                     <div class="card mb-5">
                         <div class="row g-0">
-                            <div class="col-md-4">
+                            <div class="col-md-4 d-flex align-item-center">
                                 <img src="/img/IMG_0768.webp" class="img-fluid " alt="...">
                             </div>
                             <div class="col-md-8">
@@ -171,7 +157,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 d-flex align-item-center">
                                 <img src="/img/CRISTIANE.webp" class="img-fluid " alt="...">
                             </div>
                         </div>

@@ -4,7 +4,7 @@
     <div class="container mt-5 ">
         <div class="row">
             <div class=" order-1 col-md-6  content">
-                <div class="mb-3 imagem3">
+                <div class="mb-3 imagem6">
 
                 </div>
                 <div class="text-center mb-5">

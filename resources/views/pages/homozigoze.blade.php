@@ -4,7 +4,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class=" order-1 col-md-6  content">
-                <div class="mb-3 imagem">
+                <div class="mb-3 imagem3">
                     {{-- <img src="{{ asset('img/homozigose.jpg') }}" class=" img-fluid d-block w-100" alt=""> --}}
                 </div>
                 <div class="text-center ">

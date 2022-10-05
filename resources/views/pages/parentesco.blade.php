@@ -1,13 +1,10 @@
 @extends('main.main')
 
 @section('content')
-    @extends('main.main')
-
-@section('content')
     <div class="container mt-5 ">
         <div class="row">
             <div class=" order-1 col-md-6  content">
-                <div class="mb-3 imagem3">
+                <div class="mb-3 imagem2">
 
                 </div>
                 <div class="text-center mb-5">
@@ -104,6 +101,4 @@
 
         </div>
     </div>
-@endsection
-
 @endsection

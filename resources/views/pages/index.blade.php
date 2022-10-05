@@ -1,273 +1,214 @@
 @extends('main.main')
 
 @section('content')
-    <div id="carouselExampleDark" class="carousel1  carousel carousel-dark carousel-fade  mb-5 mt-3 " data-bs-ride="carousel">
-        <div class="carousel-inner ">
-            <div class="carousel-item active " data-bs-interval="5000">
-                <img src="{{ url('img/banner.jpeg') }}" class="d-block w-100" alt="...">
+    <div class="principal">
+
+
+        {{-- Banner principal --}}
+        <div class="banner-principal mb-5 ">
+            <section class="galeria">
+                <img src="{{ url('img/banner01.jpeg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/banner1.png') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/banner02.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/banner03.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt="">
+            </section>
+
+            <div class="container">
+                <div class="text-banner">
+                    <h1 class="text-uppercase text-light text-center text-md-start">
+                        Na Loci você <br> pode confiar!
+                    </h1>
+                </div>
+                <div class="action-banner text-center text-md-start">
+                    <a href="{{ url('sobre-nos') }}" class="btn btn-lg btn-primary mb-2">VER MAIS</a>
+                    <a href="" class="btn btn-lg btn-secondary mb-2">LOJA ONLINE</a>
+                </div>
             </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{ url('img/banner5.jfif') }}" class="d-block w-100 " alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{ url('img/cavalo3.jpg') }}" class="d-block w-100 " alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{ url('img/boi.jpg') }}" class="d-block w-100 " alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="{{ url('img/laboratorio.jpg') }}" class="d-block w-100 " alt="...">
-            </div>
+            {{-- Cards do banner --}}
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <div class="container mb-5">
-        <div class="text-center text-primary">
-            <h5>
-                A Loci Genética Laboratorial é uma empresa de biotecnologia que nasceu com o propósito de trazer para o
-                mercado técnica moderna de análise genéticas por meio do uso da biologia molecular.
-            </h5>
-        </div>
-    </div>
-    <div class="container d-none d-md-block  mb-5  ">
-        <div class="services">
-            <span class="mb-5 service bg-primary" >SERVIÇOS</span>
-        </div>
-        <div class="row justify-content-between ">
-            <div class="col-2 text-center  mb-3">
-                <div class="card card1  ">
-                    <a class="emoji" href="{{ url('genotipagem') }}">
-                        <img src="/img/emoji-dna.png" class="img-fluid" alt="">
+        <div class="cards d-none d-md-block mb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3 colum mb-3">
+                    <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Genotipagem Animal</h5>
+                            <div class="text-center py-4">
+                                <img src="{{ asset('img/card-1.png') }}" alt="">
+
                             </div>
+                            <p class="card-text text-center text-light">
+                                A Loci Genética Laboratorial é uma
+                                empresa de biotecnologia que
+                                nasceu com o propósito de trazer
+                                para o mercado técnicas modernas
+                                de análises genéticas por meio do
+                                uso da biologia molecular.
+                            </p>
                         </div>
-                    </a>
+                        <div class="card-footer text-center">
+                            <a href="{{ url('sobre-nos') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class=" col-2  mb-3">
-                <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('parentesco') }}">
-                        <img src="{{ asset('img/parentesco.png') }}" alt="">
-
+                <div class="col-md-3 colum  mb-3">
+                    <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Verificação de Parentesco</h5>
+                            <div class="text-center py-4">
+                                <img src="{{ asset('img/card-2.png') }}" alt="">
                             </div>
+                            <p class="card-text text-center text-light">
+                                Quer saber tudo que a Loci
+                                pode fazer por você?
+                            </p>
                         </div>
-                    </a>
+                        <div class="card-footer text-center">
+                            <a href="">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-2 mb-3 ">
-                <div class="card card1 text-center ">
-                    <a class="emoji" href="{{ url('homozigoze') }}">
-                        <img src="/img/Cavalo.png" alt="">
 
+                <div class="col-md-4 colum mb-3">
+                    <div class="card card-banner card3 bg-light">
                         <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Homozigoze Tobiana</h5>
-
-                            </div>
+                            <h3 class="card-title py-4 text-primary">
+                                COMPRE PELA NOSSA LOJA <br>
+                                ONLINE COM TODA PRATICIDADE
+                            </h3>
+                            <p class="card-text mb-5">
+                                Lorem ipsum dolor sit amet, consectetur <br>
+                                adipiscing elit.
+                            </p>
+                            <a href="" class="btn btn-lg btn-outline-secondary">LOJA</a>
                         </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-2 mb-3">
-                <div class="card card1 text-center ">
-                    <a class="emoji" href="{{ url('beta-caseina') }}">
-                        <img src="/img/caseina.png" alt="">
-
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Beta Caseína Bovina</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class=" col-2  mb-3">
-                <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('aie') }}">
-                        <img src="{{ asset('img/aie.png') }}" alt="">
-
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>AIE</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class=" col-2  mb-3">
-                <div class="card card1 text-center">
-                    <a class="emoji" href="{{ url('mormo') }}">
-                        <img src="{{ asset('img/mormo.png') }}" alt="">
-
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Mormo</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    {{-- Mobile --}}
-    <div class="container d-block d-md-none mt-5 ">
-        <div class="row ">
-            <div class="col-6 mb-3">
-                <div class="card card-m text-center ">
-                    <a class="emoji" href="{{ url('dna') }}">
-                        <img src="/img/emoji-dna.png" class="img-fluid" alt="">
-
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Genotipagem <br> Animal</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-6 mb-3 ">
-                <div class="card card-m text-center ">
-                    <a class="emoji" href="{{ url('dna') }}">
-                        <img src="/img/Cavalo.png" class="img-fluid" alt="">
-
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Homozigoze <br> Tobiana</h5>
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-6 mb-3">
-                <div class="card card-m text-center ">
-                    <a class="emoji" href="{{ url('dna') }}">
-                        <img src="/img/caseina.png" class="img-fluid" alt="">
-
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Beta Caseína <br> Bovina</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class=" col-6  mb-3">
-                <div class="card card-m text-center">
-                    <a class="emoji" href="{{ url('sorologia') }}">
-                        <img src="/img/eos-icons_test-tube.png" class="img-fluid" alt="">
-                        <div class="card-body">
-                            <div class="card-title ">
-                                <h5>Ensaio Sorológico <br> (AIE e Mormo)</h5>
-                            </div>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    {{-- <!-- DUVIDAS  -->
-    <div class="container mt-5">
-        <div class="duvidas">
-            <div class="text-center mb-5">
-                <h3>Duvidas frequentes?</h3>
+        {{-- Servicos --}}
+        <div class="services container d-md-block   mb-5  ">
+            <div class="">
+                <h2 class="mb-5 text-primary">Nossos Serviços</h2>
             </div>
+            <div class="row ">
+                <div class="col-md-2 col-4 mb-3">
+                    <div class="link text-center">
+
+                        <a href="{{ url('genotipagem') }}">
+                            <img src="/img/emoji-dna.png" class="mb-1" alt=""> <br>
+                            Genotipagem Animal
+                        </a>
+
+                    </div>
+                </div>
+                <div class=" col-md-2 col-4  mb-3">
+                    <div class="link text-center">
+                        <a href="{{ url('parentesco') }}">
+                            <img src="{{ asset('img/parentesco.png') }}" class="mb-1" alt=""> <br>
+                            Verificação de Parentesco
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4 mb-3 ">
+                    <div class="link text-center ">
+                        <a href="{{ url('homozigoze') }}">
+                            <img src="/img/Cavalo.png" class="mb-1" alt=""><br>
+                            Homozigoze <br> Tobiana
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-4 mb-3">
+                    <div class="link text-center ">
+                        <a href="{{ url('beta-caseina') }}">
+                            <img src="/img/caseina.png" class="mb-1" alt=""><br>
+                            Beta Caseína <br> Bovina
+                        </a>
+                    </div>
+                </div>
+
+                <div class=" col-md-2 col-4  mb-3">
+                    <div class="link text-center">
+                        <a href="{{ url('aie') }}">
+                            <img src="{{ asset('img/aie.png') }}" class="img-fluid mb-1" alt=""><br>
+                            AIE
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-md-2 col-4  mb-3">
+                    <div class="link text-center">
+                        <a href="{{ url('mormo') }}">
+                            <img src="{{ asset('img/mormo.png') }}" class="mb-1" alt=""> <br>
+                            Mormo
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        {{-- Card center  --}}
+        <div class="container mb-5">
             <div class="row">
-                <!-- DUVIDAS E SUGESTÕES  -->
-                <div class="col-sm-12 col-md-6 mb-3">
-                    <div class="card sugestoes text-center mb-5">
-                        <img class="img-fluid" src="/img/question.png" alt="">
-                        <div class="body-card ">
-                            <div class="title-card">
-                                <h5>Duvidas ou sugestão? <br>
-                                    <a class="contate mb-3" href="/contato.html">Contate-nos</a>
-                                </h5>
-                            </div>
-                        </div>
+                <div class="col-md-6 order-1  ">
+                    <div class="card-mid">
+                        <p class="fs-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 order-md-1 mb-3">
+                    <div class="card-img-mid ">
+                        <img src="{{ asset('img/homozigose1.jpg') }}" class="img-fluid" alt="">
                     </div>
                 </div>
-                <!-- ACCORDION DE DUVIDAS FREQUENTES  -->
-                <div class="col-sm-12 col-md-6 mb-3 duvidas-frequentes">
-                    <div class="accordion mb-5" id="accordionExample">
+            </div>
+        </div>
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Como poderei ver o resultado do meu exame?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                   Acessando a área do cliente
-                                </div>
-                            </div>
+
+        {{-- Patrocinios E Qualidades de Serviços  --}}
+
+        <div class="container">
+            <div class="mb-3">
+                <h3 class="text-primary">Garantia de Qualidade</h3>
+            </div>
+        </div>
+        <div class="qualidades">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="patrocinios">
+                            <img src="{{ asset('img/isag.png') }}" alt="">
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Preciso preencher os formulários de solicitação de serviço?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                   Nossos formulários são todos onlines!
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="patrocinios">
+                            <img src="{{ asset('img/minis.png') }}" alt="">
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Em quanto tempo receberei meu resultado?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Os resultados dependerão da contratação dos serviços conforme preços e prazos dos exames
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="patrocinios">
+                            <img src="{{ asset('img/inmetro.png') }}" alt="">
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Quais animais nossa soulçao atende?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                  Nós atendemos equinos, bovinos, asininos e muares
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="patrocinios">
+                            <img src="{{ asset('img/imap.png') }}" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 @endsection

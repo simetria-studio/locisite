@@ -4,8 +4,8 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 order-1 content">
-                <div class="imagem3 mb-5">
-                    <img src="{{ asset('img/betacaseina.jpg') }}" class=" d-block w-100" alt="">
+                <div class="imagem4 mb-5">
+                    {{-- <img src="{{ asset('img/betacaseina.jpg') }}" class=" d-block w-100" alt=""> --}}
                 </div>
                 <div class="text-center mb-3">
                     <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank" rel="noopener noreferrer">Solicitar agora</a>
@@ -13,7 +13,7 @@
             </div>
             <div class="col-md-6 content">
                 <div class="m-2">
-                    <h6 class=" text-primary">
+                    <h6 class=" text-primary text-center">
                         <strong class="text-uppercase">
                             Beta Caseína
                         </strong> <br>
@@ -33,7 +33,7 @@
                             a proteína do leite de bovinos.
                         </small>
                     </p>
-                    <p class="text-end ">
+                    <p class="text-start ">
                         <strong>
                             <span class="text-primary">
                                 <small>Porque é importante determinar o genótipo para a BETA
@@ -49,7 +49,7 @@
                             associada a problemas de saúde humana.
                         </small>
                     </p>
-                    <p class="text-center">
+                    <p class="text-start">
                         <small>
                             <strong>
                                 <span class="text-primary">
