@@ -45,7 +45,7 @@
     </div>
     <header id="header">
         <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-            <img src="{{ asset('img/logoloci.png') }}" alt="">
+            <img src="{{ url('img/logoloci.png') }}" alt="">
         </a>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
