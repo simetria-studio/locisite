@@ -49,10 +49,6 @@ a {
   color: #4F187B;
 }
 
-.prinpal {
-  position: relative;
-}
-
 .banner-principal {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
@@ -232,29 +228,6 @@ a {
   height: 100%;
 }
 
-.accordion .accordion-item {
-  margin-bottom: 12px;
-  border-radius: 15px;
-}
-.accordion .accordion-item .accordion-button {
-  background: rgba(139, 196, 65, 0.4);
-  border: 2px solid #8bc441;
-  border-radius: 15px;
-}
-.accordion .accordion-item .accordion-button:focus {
-  border-color: 1px solid #8bc441 !important;
-  box-shadow: none;
-}
-.accordion .accordion-item .accordion-button:not(.collapsed) {
-  color: #684386;
-}
-.accordion .accordion-item .accordion-button:not(.collapsed) .accordion-button:not(.collapsed)::after {
-  color: #684386;
-}
-.accordion .accordion-item .accordion-body {
-  background: rgba(139, 196, 65, 0.4);
-}
-
 .content {
   padding: 20px;
   max-width: 600px;
@@ -310,6 +283,12 @@ a {
   background-size: cover;
 }
 
+.menu-centralizado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer {
   background-color: #684286;
   padding: 40px;
@@ -329,7 +308,6 @@ footer .info {
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 #menu {

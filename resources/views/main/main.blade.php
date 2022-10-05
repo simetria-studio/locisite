@@ -44,35 +44,41 @@
         </div>
     </div>
     <header id="header">
-        <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-            <img src="{{ url('img/logo01.png') }}" alt="">
-        </a>
-        <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
-                aria-expanded="false">
-                <span id="hamburger"></span>
-            </button>
-            <ul class="nav" id="menu" role="menu">
-                <li class="nav-item">
-                    <a href="{{ url('/') }}" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('sorologia') }}" class="nav-link ">Sorologia</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{ url('dna') }}" class="nav-link">Dna</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link ">Perguntas Frequentes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link ">Solicite seu exame</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="btn btn-secondary">AREA DO VETERINARIO</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="menu-centralizado">
+                <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0  text-decoration-none">
+                    <img src="{{ url('img/logo01.png') }}" alt="">
+                </a>
+
+                <nav id="nav">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                        aria-expanded="false">
+                        <span id="hamburger"></span>
+                    </button>
+                    <ul class="nav" id="menu" role="menu">
+                        <li class="nav-item">
+                            <a href="{{ url('/') }}" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('sorologia') }}" class="nav-link ">Sorologia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('dna') }}" class="nav-link">Dna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Perguntas Frequentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Solicite seu exame</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-secondary">AREA DO VETERINARIO</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
     </header>
     <main class="mb-5">
         @yield('content')

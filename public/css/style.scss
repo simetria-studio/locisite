@@ -49,9 +49,6 @@ a {
     }
 }
 
-.prinpal {
-    position: relative;
-}
 
 .banner-principal {
     position: relative;
@@ -254,55 +251,6 @@ a {
     }
 }
 
-// .sugestoes {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     align-items: center;
-//     max-width: 480px;
-//     height: 420px;
-//     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-//     border-radius: 15px;
-
-//     .contate {
-//         color: #684386;
-//     }
-
-//     >img {
-//         max-width: 300px;
-//         max-height: 300px;
-//     }
-// }
-
-.accordion {
-    .accordion-item {
-        margin-bottom: 12px;
-        border-radius: 15px;
-
-        .accordion-button {
-            background: rgba(139, 196, 65, 0.4);
-            border: 2px solid #8bc441;
-            border-radius: 15px;
-        }
-
-        .accordion-button:focus {
-            border-color: 1px solid #8bc441 !important;
-            box-shadow: none;
-        }
-
-        .accordion-button:not(.collapsed) {
-            color: #684386;
-
-            .accordion-button:not(.collapsed)::after {
-                color: #684386;
-            }
-        }
-
-        .accordion-body {
-            background: rgba(139, 196, 65, 0.4);
-        }
-    }
-}
 
 .content {
     padding: 20px;
@@ -365,7 +313,11 @@ a {
     }
 }
 
-
+.menu-centralizado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 footer {
     background-color: #684286;
@@ -389,7 +341,7 @@ footer {
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   
 }
 
 #menu {
