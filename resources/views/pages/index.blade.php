@@ -8,10 +8,11 @@
         <div class="banner-principal mb-5 ">
             <section class="galeria">
                 <img src="{{ url('img/banner01.jpeg') }}" class="foto img-fluid" alt="">
-                <img src="{{ url('img/banner1.png') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner02.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner03.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/banner05.jpg') }}" class="foto img-fluid" alt="">
+
             </section>
 
             <div class="container">
@@ -79,7 +80,7 @@
                                 Lorem ipsum dolor sit amet, consectetur <br>
                                 adipiscing elit.
                             </p>
-                            <a href="" class="btn btn-lg btn-outline-secondary">LOJA</a>
+                            <a href="" class="btn btn-lg btn-outline-secondary">LOJA ONLINE</a>
                         </div>
                     </div>
                 </div>
@@ -154,23 +155,45 @@
             <div class="row">
                 <div class="col-md-6 order-1  ">
                     <div class="card-mid">
-                        <p class="card-mid-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum.
-                        </p>
+                        <div>
+                            <h5 class="text-primary">
+                                PORQUE ESCOLHER A LOCI GENÉTICA LABORATORIAL?
+                            </h5>
+                            <p>
+                                Somos uma equipe de cientistas fiéis aos princípios da ética, da competência técnica e da
+                                segurança dos resultados produzidos;
+                            </p>
+                            <p>
+                                Colocamos nosso conhecimento a disposição do nosso cliente e da maneira como ele quiser: pelo
+                                telefone, por e-mail, na sua propriedade, escritório ou eventos;
+                            </p>
+                            <p>
+                                Somos transparentes e responsáveis sobre tudo aquilo que colocamos a serviço do nosso cliente;
+                            </p>
+                            <p>
+                                Buscamos aprimoramento técnico, modernização dos nossos equipamentos e métodos nos alinhando com
+                                os mais modernos centros de genética do mundo;
+                            </p>
+                            <p>
+                                Estamos em constante evolução dos processos de gestão buscando estratégias inovadoras de mercado
+                                sempre com o objetivo de trazer praticidade e solução para o nosso cliente;
+                            </p>
+                            <p>
+                                Somos movidos pelo desejo de fazer mais e melhor;
+                            </p>
+                            <p>
+                                Contamos com os nossos clientes para nossos processos de melhoria contínua;
+                            </p>
+                            <p>
+                                Como bons mineiros, queremos servir e acolher as necessidades do nosso cliente;
+                            </p>
+    
+                        </div>
                     </div>
-
                 </div>
                 <div class="col-md-6 order-md-1 mb-3">
                     <div class="card-img-mid ">
-                        <img src="{{ asset('img/homozigose1.jpg') }}" class="img-fluid" alt="">
+                        {{-- <img src="{{ asset('img/01.png') }}" class="img-fluid" alt=""> --}}
                     </div>
                 </div>
             </div>

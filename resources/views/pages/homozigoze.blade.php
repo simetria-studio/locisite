@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container mt-5">
+        <div class="text-center">
+            <h3 class="text-uppercase">HOMOZIGOSE TOBIANA</h3>
+        </div>
         <div class="row">
             <div class=" order-1 col-md-6  content">
                 <div class="mb-3 imagem3">
@@ -72,11 +75,7 @@
                             Orientações de coleta de pelo <br>
                             Orientação para coleta de sangue <br>
                             Orientação para coleta de sêmen <br>
-                            <strong>
-                                Formulário de Requisição de teste de HOMOZIGOSE TOBIANA ( <a
-                                    href="https://www.locilab.com.br/ficha-de-solicitacao-de-exame">https://www.locilab.com.br/ficha-de-solicitacao-de-exame</a>
-                                )
-                            </strong>
+                           
                         </small>
                     </p>
                 </div>

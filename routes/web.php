@@ -50,5 +50,5 @@ Route::get('/mormo', function () {
     return view('pages.mormo');
 });
 Route::get('/perguntas-frequentes', function () {
-    return view('pages.mormo');
+    return view('pages.perguntas');
 });

@@ -66,7 +66,7 @@
                             <a href="{{ url('dna') }}" class="nav-link">Dna</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link ">Perguntas Frequentes</a>
+                            <a href="{{url('perguntas-frequentes')}}" class="nav-link ">Perguntas Frequentes</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link ">Solicite seu exame</a>
@@ -91,8 +91,11 @@
                         <h4 class="text-uppercase">Contatos</h4>
                         <p>
                             31 3681-4331 <br>
-                            31 99737-0135 <br>
-                            atendimento@locilab.com.br <br>
+                            <a class="text-light" target="_blank" href="https://wa.me/553197370135">
+                                31 99737-0135 <i class="fs-5 mx-2 bi bi-whatsapp"></i> <br>
+                            </a>
+                            atendimento@locilab.com.br
+
                         </p>
                     </div>
                 </div>

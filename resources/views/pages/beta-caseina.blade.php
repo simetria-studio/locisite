@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container mt-5">
+        <div class="text-center">
+            <h3 class="text-uppercase">BETA CASEÍNA</h3>
+        </div>
         <div class="row">
             <div class="col-md-6 order-1 content">
                 <div class="imagem4 mb-5">

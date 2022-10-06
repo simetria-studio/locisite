@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container mt-5 ">
+        <div class="text-center">
+            <h3 class="text-uppercase">Anemia infecciosa equina (AIE)</h3>
+        </div>
         <div class="row">
             <div class=" order-1 col-md-6  content">
                 <div class="mb-3 imagem5">

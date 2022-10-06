@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container mt-5 ">
+        <div class="text-center">
+            <h3 class="text-uppercase">Genotipagem</h3>
+        </div>
         <div class="row">
             <div class=" order-1 col-md-6  content">
                 <div class="mb-3 imagem1">
@@ -71,11 +74,7 @@
                             Orientações de coleta de pelo <br>
                             Orientação para coleta de sangue <br>
                             Orientação para coleta de sêmen <br>
-                            <strong>
-                                Formulário de Solicitação de  Exame de Genotipagem Animal ( <a
-                                    href="https://www.locilab.com.br/ficha-de-solicitacao-de-exame">https://www.locilab.com.br/ficha-de-solicitacao-de-exame</a>
-                                )
-                            </strong>
+
                         </small>
                     </p>
                     <p class="text-start">
@@ -93,8 +92,7 @@
                     </p>
                     <h6 class="text-primary text-center">
                         <strong>
-                            NA LOCI, O EXAME DE GENOTIPAGEM ANIMAL INCLUI 2 VERIFICAÇÕES DE PARENTESCO GRATUITAS​
-
+                            NA LOCI, O EXAME DE GENOTIPAGEM ANIMAL INCLUI 2 VERIFICAÇÕES DE PARENTESCO GRATUITAS​. 
                             NOVAS VERIFICAÇÕES PODEM SER SOLICITADAS DE FORMA AVULSA
                         </strong>
                     </h6>
