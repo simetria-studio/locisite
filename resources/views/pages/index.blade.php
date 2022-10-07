@@ -23,7 +23,7 @@
                 </div>
                 <div class="action-banner text-center text-md-start">
                     <a href="{{ url('sobre-nos') }}" class="btn btn-lg btn-primary mb-2">VER MAIS</a>
-                    <a href="" class="btn btn-lg btn-secondary mb-2">LOJA ONLINE</a>
+                    <a href="" class="btn btn-lg btn-secondary mb-2">SOLICITE AGORA</a>
                 </div>
             </div>
             {{-- Cards do banner --}}
@@ -34,40 +34,40 @@
                 <div class="col-md-3  mb-3">
                     <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
-
-                            <img src="{{url('img/card01.png')}}" alt="">
-                            {{-- <div class="text-center py-4">
-                                <img src="{{ asset('img/card-1.png') }}" alt="">
-
+                            <div class="text-center">
+                                <img src="{{ url('img/card-equino.png') }}" class="" alt="">
                             </div>
-                            <p class="card-text text-center text-light">
-                                A Loci Genética Laboratorial é uma
-                                empresa de biotecnologia que
-                                nasceu com o propósito de trazer
-                                para o mercado técnicas modernas
-                                de análises genéticas por meio do
-                                uso da biologia molecular.
-                            </p> --}}
+                            <div class="text-light">
+                                <h4 class="text-center text-primary">Equinos</h4>
+                                <p class="card-text text-center text-light">
+                                    A criação de cavalos caracteriza-se como uma importante fonte de negócios no Brasil movimentando
+                                    cifras na casa dos bilhões de reais...
+                                </p>
+                            </div>
                         </div>
                         <div class="card-footer text-center">
-                            <a href="{{ url('sobre-nos') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="{{ url('equinos') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3   mb-3">
                     <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
-                            <img src="{{url('img/card02.png')}}" alt="">
-                            {{-- <div class="text-center py-4">
-                                <img src="{{ asset('img/card-2.png') }}" alt="">
+                            <div class="text-center">
+                                <img src="{{ url('img/card-bovino.png') }}" class="" alt="">
                             </div>
-                            <p class="card-text text-center text-light">
-                                Quer saber tudo que a Loci
-                                pode fazer por você?
-                            </p> --}}
+                            <div class="text-light">
+                                <h4 class="text-center text-primary">Bovinos</h4>
+                                <p class="card-text text-center text-light">
+                                    O Brasil tem o maior rebanho bovino do mundo, com 222 milhões de animais, segundo dados
+                                    do
+                                    Ministério da Agricultura, Pecuária e Abastecimento...
+                                </p>
+                            </div>
+
                         </div>
                         <div class="card-footer text-center">
-                            <a href="">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="{{url('bovinos')}}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,15 +75,15 @@
                 <div class="col-md-4 colum mb-3">
                     <div class="card card-banner card3 bg-light">
                         <div class="card-body">
-                            <h3 class="card-title py-4 text-primary">
-                                COMPRE PELA NOSSA LOJA <br>
-                                ONLINE COM TODA PRATICIDADE
+                            <h3 class="card-title py-4 text-primary text-uppercase">
+                                Exame de DNA 15 dias por apenas R$ 65,00
+                                {{-- COMPRE PELA NOSSA LOJA <br>
+                                ONLINE COM TODA PRATICIDADE --}}
                             </h3>
                             <p class="card-text mb-5">
-                                Lorem ipsum dolor sit amet, consectetur <br>
-                                adipiscing elit.
+                              Solicite seus exames de DNA com toda praticidade e segurança, clicando no botão abaixo.
                             </p>
-                            <a href="" class="btn btn-lg btn-outline-secondary">LOJA ONLINE</a>
+                            <a href="" class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
                         </div>
                     </div>
                 </div>
@@ -167,18 +167,22 @@
                                 segurança dos resultados produzidos;
                             </p>
                             <p>
-                                Colocamos nosso conhecimento a disposição do nosso cliente e da maneira como ele quiser: pelo
+                                Colocamos nosso conhecimento a disposição do nosso cliente e da maneira como ele quiser:
+                                pelo
                                 telefone, por e-mail, na sua propriedade, escritório ou eventos;
                             </p>
                             <p>
-                                Somos transparentes e responsáveis sobre tudo aquilo que colocamos a serviço do nosso cliente;
+                                Somos transparentes e responsáveis sobre tudo aquilo que colocamos a serviço do nosso
+                                cliente;
                             </p>
                             <p>
-                                Buscamos aprimoramento técnico, modernização dos nossos equipamentos e métodos nos alinhando com
+                                Buscamos aprimoramento técnico, modernização dos nossos equipamentos e métodos nos alinhando
+                                com
                                 os mais modernos centros de genética do mundo;
                             </p>
                             <p>
-                                Estamos em constante evolução dos processos de gestão buscando estratégias inovadoras de mercado
+                                Estamos em constante evolução dos processos de gestão buscando estratégias inovadoras de
+                                mercado
                                 sempre com o objetivo de trazer praticidade e solução para o nosso cliente;
                             </p>
                             <p>
@@ -190,7 +194,7 @@
                             <p>
                                 Como bons mineiros, queremos servir e acolher as necessidades do nosso cliente;
                             </p>
-    
+
                         </div>
                     </div>
                 </div>

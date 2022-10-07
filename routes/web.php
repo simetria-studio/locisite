@@ -52,3 +52,9 @@ Route::get('/mormo', function () {
 Route::get('/perguntas-frequentes', function () {
     return view('pages.perguntas');
 });
+Route::get('/bovinos', function () {
+    return view('pages.saiba-mais.bovinos');
+});
+Route::get('/equinos', function () {
+    return view('pages.saiba-mais.equinos');
+});

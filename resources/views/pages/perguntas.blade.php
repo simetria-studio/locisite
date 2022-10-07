@@ -18,7 +18,7 @@
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body text-light">
-                            <p>Laboratório Loci nós somos credenciados para realizar o exame no pelo, no sêmen e no sangue.
+                            <p>O Laboratório Loci é credenciado para realizar o exames no pelo, no sêmen e no sangue.
                         </div>
                         </p>
                     </div>
@@ -57,6 +57,7 @@
                                 possuímos opções de exames com prazos de 10, 5, 2 e 1 dia para liberação com a mesma
                                 qualidade e
                                 segurança.
+                                <a class="text-primary" href="">Solicite Agora</a>
                             </p>
                         </div>
                     </div>
@@ -66,15 +67,16 @@
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
                             aria-controls="collapse4">
-                            Se os supostos genitores do seu animal já têm exame de DNA, eu preciso repetir o exame deles para fazer a verificação de parentesco?
+                            Se os supostos genitores do seu animal já têm exame de DNA, eu preciso repetir o exame deles
+                            para fazer a verificação de parentesco?
                         </button>
                     </h2>
                     <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="header4"
                         data-bs-parent="accordionExample">
                         <div class="accordion-body text-light">
                             <p>
-                                Não precisa, basta que você ou a associação da raça informe os nomes dos genitores no
-                                Formulário
+                                Não precisa, basta que você ou a associação da raça informe os nomes dos genitores na sua
+                                solicitação
                                 que faremos a comparação com o perfil genético encontrado no arquivo permanente
                             </p>
                         </div>
@@ -85,17 +87,15 @@
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
                             aria-controls="collapse5">
-                            Como devo proceder no caso de verificação de parentesco que nao qualificou o genitor ou a genitora?
+                            Como devo proceder no caso de verificação de parentesco que não qualificou o genitor ou a
+                            genitora?
                         </button>
                     </h2>
                     <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="header5"
                         data-bs-parent="accordionExample">
                         <div class="accordion-body text-light">
                             <p>
-                                Se existe a possibilidade de outro animal da propriedade ser o genitor ou a genitora, devo
-                                solicitar uma verificação de parentesco avulsa com indicação do suposto genitor ou genitora.
-                                Se
-                                não existe outro animal para verificação e tenho certeza que esse é o genitor, deve-se fazer
+                                Se não existe outro animal para verificação e você tem certeza que esse é o genitor, deve-se fazer
                                 um
                                 contato direto com o laboratório para esclarecimento do resultado pois pode haver problemas
                                 com
@@ -109,7 +109,7 @@
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
                             aria-controls="collapse6">
-                            Quantos marcadores genéticos são analisado e quanto desqualificam o vínculo do animal? 
+                            Quantos marcadores genéticos são analisado e quanto desqualificam o vínculo do animal?
                         </button>
                     </h2>
                     <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="header6"
@@ -137,7 +137,8 @@
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
                             aria-controls="collapse7">
-                            Preciso realizar o exame de AIE e/ou Mormo, posso contratar um veterinário ou técnico para colher a amostra A, amostra D animal?
+                            Preciso realizar o exame de AIE e/ou Mormo, posso contratar um veterinário ou técnico para
+                            colher a amostra A, amostra D animal?
                         </button>
                     </h2>
                     <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="header7"
@@ -157,7 +158,8 @@
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false"
                             aria-controls="collapse8">
-                            Porque o labaratório não aceita realizar o exame se a requisição tiver campos em branco, rasuras ou sem assinatura/carimbo
+                            Porque o labaratório não aceita realizar o exame se a requisição tiver campos em branco, rasuras
+                            ou sem assinatura/carimbo
                         </button>
                     </h2>
                     <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="header8"
