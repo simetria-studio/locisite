@@ -34,7 +34,9 @@
                 <div class="col-md-3  mb-3">
                     <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
-                            <div class="text-center py-4">
+
+                            <img src="{{url('img/card01.png')}}" alt="">
+                            {{-- <div class="text-center py-4">
                                 <img src="{{ asset('img/card-1.png') }}" alt="">
 
                             </div>
@@ -45,7 +47,7 @@
                                 para o mercado técnicas modernas
                                 de análises genéticas por meio do
                                 uso da biologia molecular.
-                            </p>
+                            </p> --}}
                         </div>
                         <div class="card-footer text-center">
                             <a href="{{ url('sobre-nos') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
@@ -55,13 +57,14 @@
                 <div class="col-md-3   mb-3">
                     <div class="card card-banner mx-auto bg-secondary">
                         <div class="card-body">
-                            <div class="text-center py-4">
+                            <img src="{{url('img/card02.png')}}" alt="">
+                            {{-- <div class="text-center py-4">
                                 <img src="{{ asset('img/card-2.png') }}" alt="">
                             </div>
                             <p class="card-text text-center text-light">
                                 Quer saber tudo que a Loci
                                 pode fazer por você?
-                            </p>
+                            </p> --}}
                         </div>
                         <div class="card-footer text-center">
                             <a href="">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
