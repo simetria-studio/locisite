@@ -11,7 +11,7 @@
 
                 </div>
                 <div class="text-center mb-5">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{ url('formularios') }}"
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="https://www.locilab.com.br/_files/ugd/8a64e2_7d58465a4845477b9df61d4babf7b693.pdf"
                         target="_blank" rel="noopener noreferrer">Solicitar agora</a>
                 </div>
             </div>

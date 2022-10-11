@@ -159,7 +159,7 @@
             <div class="row">
                 <div class="col-md-6 order-1  ">
                     <div class="card-mid">
-                        <div>
+                        <div class="slide-in-left">
                             <h5 class="text-primary">
                                 PORQUE ESCOLHER A LOCI GENÉTICA LABORATORIAL?
                             </h5>
@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 order-md-1 mb-3">
-                    <div class="card-img-mid ">
+                    <div class="card-img-mid slide-in-right ">
                         {{-- <img src="{{ asset('img/01.png') }}" class="img-fluid" alt=""> --}}
                     </div>
                 </div>

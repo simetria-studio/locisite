@@ -11,8 +11,7 @@
 
                 </div>
                 <div class="text-center mb-5">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{url('formularios')}}" target="_blank"
-                        rel="noopener noreferrer">Solicitar agora</a>
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx" target="_blank">Solicitar agora</a>
                 </div>
             </div>
             <div class="col-md-6 content">

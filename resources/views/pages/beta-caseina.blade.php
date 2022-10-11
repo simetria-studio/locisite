@@ -11,7 +11,7 @@
                     {{-- <img src="{{ asset('img/betacaseina.jpg') }}" class=" d-block w-100" alt=""> --}}
                 </div>
                 <div class="text-center mb-3">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{url('formularios')}}" target="_blank" rel="noopener noreferrer">Solicitar agora</a>
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_8dc7862be4b54d68a794532956cc6ccb.xlsx?dn=FOR.ATN.19%20v.2%20-%20Requisi%C3%A7%C3%A3o%20de%20Exame%20de%20Beta%20Case%C3%ADna.xlsx" target="_blank" rel="noopener noreferrer">Solicitar agora</a>
                 </div>
             </div>
             <div class="col-md-6 content">

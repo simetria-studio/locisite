@@ -11,7 +11,7 @@
                     {{-- <img src="{{ asset('img/homozigose.jpg') }}" class=" img-fluid d-block w-100" alt=""> --}}
                 </div>
                 <div class="text-center ">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{url('formularios')}}" target="_blank"
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_4e381c6227aa464581a5d6b45a3d0e57.xlsx?dn=FOR.ATN.17%20v.4%20-%20Requisi%C3%A7%C3%A3o%20de%20Exame%20de%20Homozigose%20Tobiana.xlsx" target="_blank"
                         rel="noopener noreferrer">Solicitar agora</a>
                 </div>
             </div>
