@@ -76,7 +76,8 @@
                     <div class="card card-banner card3 bg-light">
                         <div class="card-body">
                             <h3 class="card-title py-4 text-primary text-uppercase">
-                                Exame de DNA 15 dias por apenas R$ 65,00
+                                A Loci disponibiliza seu DNA 24 horas, 2 dias, 5 dias e 10 dias
+                                {{-- Exame de DNA 15 dias por apenas R$ 65,00 --}}
                                 {{-- COMPRE PELA NOSSA LOJA <br>
                                 ONLINE COM TODA PRATICIDADE --}}
                             </h3>
