@@ -11,7 +11,7 @@
                     {{-- <img src="{{ asset('img/betacaseina.jpg') }}" class=" d-block w-100" alt=""> --}}
                 </div>
                 <div class="text-center mb-3">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank" rel="noopener noreferrer">Solicitar agora</a>
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{url('formularios')}}" target="_blank" rel="noopener noreferrer">Solicitar agora</a>
                 </div>
             </div>
             <div class="col-md-6 content">

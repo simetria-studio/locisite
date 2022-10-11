@@ -58,3 +58,6 @@ Route::get('/bovinos', function () {
 Route::get('/equinos', function () {
     return view('pages.saiba-mais.equinos');
 });
+Route::get('/formularios', function () {
+    return view('pages.formularios');
+});

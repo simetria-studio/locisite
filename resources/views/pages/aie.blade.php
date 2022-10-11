@@ -11,8 +11,8 @@
 
                 </div>
                 <div class="text-center mb-5">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="http://" target="_blank"
-                        rel="noopener noreferrer">Solicitar agora</a>
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{ url('formularios') }}"
+                        target="_blank" rel="noopener noreferrer">Solicitar agora</a>
                 </div>
             </div>
             <div class="col-md-6 content">
@@ -95,9 +95,100 @@
                             rasuras e de campos em branco.
                         </small>
                     </p>
+                    <!-- Button trigger modal -->
+                    <a type="button" class="text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Instruções de coleta
+                    </a>
+
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Coleta do Exame Anemia Infecciosa Equina (AIE) </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Nome do Exame:</strong> Anemia Infecciosa Equina <br>
+                        <strong>Mnemônico:</strong> AIE <br>
+                        <strong>Material:</strong> Sangue total em tubo sem anticoagulante (tampa vermelha) ou Soro. <br>
+                        <strong>Volume:</strong> 4,0 mL de sangue ou 2,0 mL de soro. <br>
+                        <strong>
+                            Quando a amostra biológica for destinada aos exames de AIE e Mormo, enviar apenas um tubo de
+                            10,0 mL de sangue ou 2,0 mL de soro.
+                        </strong>
+                    </p>
+                    <p>
+                        <strong>Instruções:</strong> <br>
+                        - As amostras, Sangue ou Soro, devem ser enviadas para o laboratório sob refrigeração. Para o envio
+                        de soro, recomenda-se o seu congelamento prévio antes do seu acondicionamento em caixa isotérmica
+                        contendo gelo reciclável; <br>
+                        - A amostra sempre deve estar acompanhada da seguinte documentação: <br>
+                        * Requisição de Exame para Diagnóstico de Anemia Infecciosa Equina, assinadas e carimbadas pelo
+                        médico veterinário solicitante.
+                    </p>
+                    <p>
+                        <strong>OBS:
+                            <br>
+                            - Para resultados solicitados em cópia física, enviar 2 cópias da requisição para o laboratório.
+                            Para resultados por e-mail ou disponibilizados pela "Área do Veterinário", enviar 1 cópia da
+                            requisição para o laboratório e reter uma cópia para fim de anexá-la ao resultado recebido por
+                            meio
+                            eletrônico;
+
+                            - Verificar se o carimbo está legível contendo as informações: Nome do Médico Veterinário
+                            requisitante e seu CRMV do estado. A sua assinatura também deve estar legível nas vias;
+
+                            - Atenção à marcação do método de escolha para realização do exame: IDGA ou ELISA!
+
+                            - Para maior comodidade, segurança e qualidade do processo de requisição do exame, sugerimos o
+                            uso
+                            da ferramenta requisição eletrônica disponível em nossa "Área do Veterinário" (acesso pelo menu
+                            INÍCIO).
+                        </strong>
+                    </p>
+                    <p>* Targeta de Identificação de Contraprova, preenchida e assinada pelo portador; <br>
+
+                        - Embalar a documentação em saco plástico antes de colocá-la na caixa isotérmica junto com as
+                        amostras para que não chegue molhada e/ou manchada, o que a invalida. <br>
+
+                        - A validade do exame é de 60 dias a contar do dia da coleta do sangue do animal. <br>
+                    </p>
+                    <p>
+                        <strong>Conservação:</strong> Sangue: Até 8 dias refrigerado entre 2 e 8ºC.
+                    </p>
+                    <p>
+                        <strong>Critérios de Rejeição:</strong> <br>
+                        Ausência de documentação de acompanhamento da amostra;
+                        Requisição com campo em branco, rasuras ou com letra ilegível;
+                        Hemólise acentuada.
+                    </p>
+                    <p>
+                        <strong>Método:</strong> Imunodifusão em Gel de Ágar (IDGA) ou “Enzyme Linked ImmunonoSorbent Assay"
+                        (ELISA).
+                    </p>
+                    <p>
+                        <strong>Prazo de Liberação do Resultado: </strong>
+                    </p>
+                    <p>
+                        <strong>Descrição:</strong> A Anemia Infecciosa Equina (AIE) é uma doença viral de ocorrência em
+                        todos os estados do Brasil, de extrema importância no aspecto sanitário e econômico. A AIE pode
+                        levar à morte muitos dos animais acometidos bem como tornar potentes disseminadores da doença outros
+                        indivíduos que são portadores assintomáticos. O sacrifício dos animais acometidos é obrigatório na
+                        maioria das regiões do país. Os equídeos que serão transportados de um município a outro ou para
+                        outro estado para participar de algum tipo de aglomeração necessariamente precisam portar uma Guia
+                        de Trânsito Animal (GTA). Para obter essa guia, deve ter exame de AIE e Mormo negativo.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

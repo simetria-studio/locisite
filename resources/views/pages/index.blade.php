@@ -23,13 +23,13 @@
                 </div>
                 <div class="action-banner text-center text-md-start">
                     <a href="{{ url('sobre-nos') }}" class="btn btn-lg btn-primary mb-2">VER MAIS</a>
-                    <a href="" class="btn btn-lg btn-secondary mb-2">SOLICITE AGORA</a>
+                    <a href="{{url('formularios')}}" class="btn btn-lg btn-secondary mb-2">SOLICITE AGORA</a>
                 </div>
             </div>
             {{-- Cards do banner --}}
 
         </div>
-        <div class="cards d-none d-md-block mb-5">
+        <div class="cards slide-in-left d-none d-md-block mb-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-3  mb-3">
                     <div class="card card-banner mx-auto bg-secondary">
@@ -83,7 +83,7 @@
                             <p class="card-text mb-5">
                               Solicite seus exames de DNA com toda praticidade e segurança, clicando no botão abaixo.
                             </p>
-                            <a href="" class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
+                            <a href="{{url('formularios')}}" class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
 
 
         {{-- Servicos --}}
-        <div class="services container d-md-block   mb-5  ">
+        <div class="services slide-in-right container d-md-block   mb-5  ">
             <div class="">
                 <h2 class="mb-5 text-primary">Nossos Serviços</h2>
             </div>
