@@ -9,10 +9,9 @@
             <section class="galeria">
                 <img src="{{ url('img/banner01.jpeg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner02.jpg') }}" class="foto img-fluid" alt="">
-                <img src="{{ url('img/banner03.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner05.jpg') }}" class="foto img-fluid" alt="">
-
+                <img src="{{ url('img/banner06.jfif') }}" class="foto img-fluid" alt="">
             </section>
 
             <div class="container">
@@ -84,7 +83,7 @@
                             <p class="card-text mb-5">
                               Solicite seus exames de DNA com toda praticidade e segurança, clicando no botão abaixo.
                             </p>
-                            <a href="{{url('formularios')}}" class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
+                            <a target="_blank" href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx" class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +158,7 @@
             <div class="row">
                 <div class="col-md-6 order-1  ">
                     <div class="card-mid">
-                        <div class="slide-in-left">
+                        <div class="slide-in-left ">
                             <h5 class="text-primary">
                                 PORQUE ESCOLHER A LOCI GENÉTICA LABORATORIAL?
                             </h5>
@@ -168,7 +167,7 @@
                                 segurança dos resultados produzidos;
                             </p>
                             <p>
-                                Colocamos nosso conhecimento a disposição do nosso cliente e da maneira como ele quiser:
+                                Colocamos nosso conhecimento à disposição do nosso cliente e da maneira como ele quiser:
                                 pelo
                                 telefone, por e-mail, na sua propriedade, escritório ou eventos;
                             </p>

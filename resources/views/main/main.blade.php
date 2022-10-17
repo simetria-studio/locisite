@@ -63,13 +63,13 @@
                             <a href="{{ url('sorologia') }}" class="nav-link ">Sorologia</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('dna') }}" class="nav-link">Dna</a>
+                            <a href="{{ url('dna') }}" class="nav-link">DNA</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{url('perguntas-frequentes')}}" class="nav-link ">Perguntas Frequentes</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link disabled ">Solicite seu exame</a>
+                            <a href="{{url('formularios')}}" class="nav-link  ">Solicite seu exame</a>
                         </li>
                         <li class="nav-item">
                             <a target="_blank" href="https://www.portalgeeklab.com.br/portal/" class="btn btn-secondary">AREA DO VETERINARIO</a>

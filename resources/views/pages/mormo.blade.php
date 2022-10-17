@@ -11,8 +11,9 @@
 
                 </div>
                 <div class="text-center mb-5">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx"
-                        target="_blank" >Solicitar agora</a>
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button"
+                        href="https://www.locilab.com.br/_files/ugd/8a64e2_01619f63f6704ffaa3cedd3b77a7750b.pdf"
+                        target="_blank">Solicitar agora</a>
                 </div>
             </div>
             <div class="col-md-6 content">
@@ -34,7 +35,8 @@
                                 </span>
                             </strong>
                             Para diagnosticar a doença de MORMO. Mormo é uma doença infectocontagiosa, causada pela bactéria
-                            Burkholderia mallei, que acomete principalmente os equídeos podendo, ainda, acometer o homem.
+                            <strong>Burkholderia mallei</strong> , que acomete principalmente os equídeos podendo, ainda,
+                            acometer o homem.
                             Trata-se, portanto, de uma zoonose.​
                         </small>
                     </p>
@@ -142,8 +144,7 @@
 
                             - Para maior comodidade, segurança e qualidade do processo de requisição do exame, sugerimos o
                             uso
-                            da ferramenta requisição eletrônica disponível em nossa "Área do Veterinário" (acesso pelo menu
-                            INÍCIO).
+                            da ferramenta requisição eletrônica disponível em nossa "Área do Veterinário"
                         </strong>
                     </p>
                     <p>* Targeta de Identificação de Contraprova, preenchida e assinada pelo portador; <br>
@@ -163,20 +164,19 @@
                         Hemólise acentuada.
                     </p>
                     <p>
-                        <strong>Método:</strong> Imunodifusão em Gel de Ágar (IDGA) ou “Enzyme Linked ImmunonoSorbent Assay"
+                        <strong>Método:</strong> “Enzyme Linked ImmunonoSorbent Assay"
                         (ELISA).
                     </p>
                     <p>
                         <strong>Prazo de Liberação do Resultado: </strong>
                     </p>
                     <p>
-                        <strong>Descrição:</strong> A Anemia Infecciosa Equina (AIE) é uma doença viral de ocorrência em
-                        todos os estados do Brasil, de extrema importância no aspecto sanitário e econômico. A AIE pode
-                        levar à morte muitos dos animais acometidos bem como tornar potentes disseminadores da doença outros
-                        indivíduos que são portadores assintomáticos. O sacrifício dos animais acometidos é obrigatório na
-                        maioria das regiões do país. Os equídeos que serão transportados de um município a outro ou para
-                        outro estado para participar de algum tipo de aglomeração necessariamente precisam portar uma Guia
-                        de Trânsito Animal (GTA). Para obter essa guia, deve ter exame de AIE e Mormo negativo.
+                        <strong>Descrição:</strong> O Mormo é uma doença infectocontagiosa, causada pela bactéria
+                        Burkholderia mallei, que acomete principalmente os equídeos podendo, ainda, acometer o homem.
+                        Trata-se, portanto, de uma zoonose. Os equídeos que serão transportados de um município a outro ou
+                        para outro estado, que irão participar de algum tipo de aglomeração, feiras, exposições, vaquejadas
+                        e competições de outras naturezas necessariamente precisam portar uma Guia de Trânsito Animal (GTA).
+                        Para obter essa guia, deve ter exame de AIE e Mormo negativo.
                     </p>
                 </div>
                 <div class="modal-footer">

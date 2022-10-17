@@ -148,8 +148,7 @@
 
                             - Para maior comodidade, segurança e qualidade do processo de requisição do exame, sugerimos o
                             uso
-                            da ferramenta requisição eletrônica disponível em nossa "Área do Veterinário" (acesso pelo menu
-                            INÍCIO).
+                            da ferramenta requisição eletrônica disponível em nossa "Área do Veterinário" 
                         </strong>
                     </p>
                     <p>* Targeta de Identificação de Contraprova, preenchida e assinada pelo portador; <br>

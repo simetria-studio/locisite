@@ -28,7 +28,7 @@
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                             aria-controls="collapseTwo">
-                            Meu veterináio pode colher a amostra para o exame de DNA que será utilizado para registro do
+                            Meu veterinário pode colher a amostra para o exame de DNA que será utilizado para registro do
                             animal?
                         </button>
                     </h2>
@@ -57,7 +57,9 @@
                                 possuímos opções de exames com prazos de 10, 5, 2 e 1 dia para liberação com a mesma
                                 qualidade e
                                 segurança.
-                                <a class="text-primary" href="">Solicite Agora</a>
+                                <a class="text-primary"
+                                    href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx">Solicite
+                                    Agora</a>
                             </p>
                         </div>
                     </div>
@@ -95,30 +97,9 @@
                         data-bs-parent="accordionExample">
                         <div class="accordion-body text-light">
                             <p>
-                                Se não existe outro animal para verificação e você tem certeza que esse é o genitor, deve-se fazer
-                                um
-                                contato direto com o laboratório para esclarecimento do resultado pois pode haver problemas
-                                com
-                                o laudo dos genitores.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item bg-secondary mb-3">
-                    <h2 class="accordion-header" id="header6">
-                        <button class="accordion-button collapsed btn btn-outline-primary" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
-                            aria-controls="collapse6">
-                            Quantos marcadores genéticos são analisado e quanto desqualificam o vínculo do animal?
-                        </button>
-                    </h2>
-                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="header6"
-                        data-bs-parent="accordionExample">
-                        <div class="accordion-body text-light">
-                            <p>
-                                Para cada espécie é definido um número de marcadores específico e a desqualificação de um
-                                marcador se confirmada, é suficiente para desqualificá-lo. Na Loci seguimos rigorosamente as
-                                determinações do MAPA para as análises dos marcadores genéticos estabelecidos.
+                                Se não existe outro animal para verificação e você tem certeza que esse é o genitor, deve-se
+                                fazer um contato direto com o laboratório para esclarecimento do resultado, pois pode haver
+                                problema com o laudo do  genitor .
                             </p>
                         </div>
                     </div>
@@ -159,14 +140,14 @@
                             data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false"
                             aria-controls="collapse8">
                             Porque o labaratório não aceita realizar o exame se a requisição tiver campos em branco, rasuras
-                            ou sem assinatura/carimbo
+                            ou sem assinatura/carimbo?
                         </button>
                     </h2>
                     <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="header8"
                         data-bs-parent="accordionExample">
                         <div class="accordion-body text-light">
                             <p>
-                                Porque esse é uma exigência dos órgãos reguladores e fiscalizadores que não aceitarão o
+                                Porque esta é uma exigência dos órgãos reguladores e fiscalizadores que não aceitarão o
                                 resultado em qualquer uma dessas situações.
                             </p>
                         </div>

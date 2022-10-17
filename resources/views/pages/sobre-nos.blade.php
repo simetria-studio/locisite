@@ -59,7 +59,7 @@
                                 REFERÊNCIA NO MERCADO.</strong>
                         </p>
                         <h4 id="simple-list-item-6" class="text-primary">Somos abertos a inovação</h4>
-                        <p>Aqui, somos abertos a inovação e temos um desejo enorme de fazer diferença na vida das
+                        <p>Aqui, somos abertos à inovação e temos um desejo enorme de fazer diferença na vida das
                             pessoas e
                             contribuir com a ciência do nosso país!
                         </p>
@@ -78,7 +78,7 @@
                             PELO QUE FAZ! Temos um canal aberto com os nossos clientes, parceiros, fornecedores e
                             nos colocamos
                             a disposição para construir a sua melhor solução que pode ser, além da qualidade, o
-                            prazo, a
+                            prazo, à disposição;
                             logística, o suporte técnico e a praticidade.
                         </p>
                         <h4 id="simple-list-item-9" class="text-primary">Contato conosco</h4>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="card mb-5">
                         <div class="row g-0">
-                            <div class="col-md-4 d-flex align-item-center">
+                            <div class="col-md-4 d-flex align-item-center diretoria">
                                 <img src="/img/IMG_0768.webp" class="img-fluid " alt="...">
                             </div>
                             <div class="col-md-8">
@@ -157,7 +157,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-4 d-flex align-item-center">
+                            <div class="col-md-4 d-flex align-item-center diretoria">
                                 <img src="/img/CRISTIANE.webp" class="img-fluid " alt="...">
                             </div>
                         </div>
