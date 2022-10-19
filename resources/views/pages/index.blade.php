@@ -11,10 +11,10 @@
                 <img src="{{ url('img/banner02.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner05.jpg') }}" class="foto img-fluid" alt="">
-                <img src="{{ url('img/banner06.jfif') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/top-img.jfif') }}" class="foto img-fluid" alt="">
             </section>
 
-            <div class="container">
+            <div class="container link-principal ">
                 <div class="text-banner">
                     <h1 class="text-uppercase text-light text-center text-md-start">
                         Na Loci você <br> pode confiar!
@@ -22,7 +22,7 @@
                 </div>
                 <div class="action-banner text-center text-md-start">
                     <a href="{{ url('sobre-nos') }}" class="btn btn-lg btn-primary mb-2">VER MAIS</a>
-                    <a href="{{url('formularios')}}" class="btn btn-lg btn-secondary mb-2">SOLICITE AGORA</a>
+                    <a href="{{ url('formularios') }}" class="btn btn-lg btn-secondary mb-2">SOLICITE AGORA</a>
                 </div>
             </div>
             {{-- Cards do banner --}}
@@ -39,7 +39,8 @@
                             <div class="text-light">
                                 <h4 class="text-center text-primary">Equinos</h4>
                                 <p class="card-text text-center text-light">
-                                    A criação de cavalos caracteriza-se como uma importante fonte de negócios no Brasil movimentando
+                                    A criação de cavalos caracteriza-se como uma importante fonte de negócios no Brasil
+                                    movimentando
                                     cifras na casa dos bilhões de reais...
                                 </p>
                             </div>
@@ -66,7 +67,7 @@
 
                         </div>
                         <div class="card-footer text-center">
-                            <a href="{{url('bovinos')}}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                            <a href="{{ url('bovinos') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -81,9 +82,11 @@
                                 ONLINE COM TODA PRATICIDADE --}}
                             </h3>
                             <p class="card-text mb-5">
-                              Solicite seus exames de DNA com toda praticidade e segurança, clicando no botão abaixo.
+                                Solicite seus exames de DNA com toda praticidade e segurança, clicando no botão abaixo.
                             </p>
-                            <a target="_blank" href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx" class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
+                            <a target="_blank"
+                                href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx"
+                                class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
                         </div>
                     </div>
                 </div>

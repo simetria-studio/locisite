@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .banner-principal{
+        min-height: 200px;
+        max-height: 500px;
+    }
+    .foto{
+        object-fit: cover;
+      
+    }
+    .link-principal{
+        display: none;
+    }
+}
+    
