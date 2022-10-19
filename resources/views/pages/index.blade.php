@@ -11,7 +11,11 @@
                 <img src="{{ url('img/banner02.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner05.jpg') }}" class="foto img-fluid" alt="">
-                <img src="{{ url('img/top-img.jfif') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/foto_1.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/foto_2.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/foto_top1.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/foto_top3.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/foto_top10.jpg') }}" class="foto img-fluid" alt="">
             </section>
 
             <div class="container link-principal ">

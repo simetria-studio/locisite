@@ -66,7 +66,8 @@ a {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   width: 100%;
-  min-height: 750px;
+  min-height: 550px;
+  max-height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,17 +77,16 @@ a {
   height: 100%;
   overflow: hidden;
   position: absolute;
-  display: flex;
-  place-items: center;
-  place-content: center;
 }
 .banner-principal .foto {
   position: absolute;
-  -webkit-animation: animacao infinite 25s;
-          animation: animacao infinite 25s;
+  -webkit-animation: animacao infinite 40s;
+          animation: animacao infinite 40s;
   opacity: 0;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @-webkit-keyframes animacao {
   25% {
@@ -125,6 +125,22 @@ a {
 .banner-principal .foto:nth-child(5) {
   -webkit-animation-delay: 20s;
           animation-delay: 20s;
+}
+.banner-principal .foto:nth-child(6) {
+  -webkit-animation-delay: 25s;
+          animation-delay: 25s;
+}
+.banner-principal .foto:nth-child(7) {
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
+}
+.banner-principal .foto:nth-child(8) {
+  -webkit-animation-delay: 35s;
+          animation-delay: 35s;
+}
+.banner-principal .foto:nth-child(9) {
+  -webkit-animation-delay: 40s;
+          animation-delay: 40s;
 }
 .banner-principal .text-banner {
   position: relative;
