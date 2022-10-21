@@ -58,7 +58,7 @@
                                 ESPÉCIES USANDO AS TÉCNICAS DE GENÉTICA MOLECULAR MAIS MODERNAS, SEGURAS E DE
                                 REFERÊNCIA NO MERCADO.</strong>
                         </p>
-                        <h4 id="simple-list-item-6" class="text-primary">Somos abertos a inovação</h4>
+                        <h4 id="simple-list-item-6" class="text-primary">Somos abertos à inovação</h4>
                         <p>Aqui, somos abertos à inovação e temos um desejo enorme de fazer diferença na vida das
                             pessoas e
                             contribuir com a ciência do nosso país!
@@ -78,8 +78,7 @@
                             PELO QUE FAZ! Temos um canal aberto com os nossos clientes, parceiros, fornecedores e
                             nos colocamos
                             a disposição para construir a sua melhor solução que pode ser, além da qualidade, o
-                            prazo, à disposição;
-                            logística, o suporte técnico e a praticidade.
+                            prazo, logística, o suporte técnico e a praticidade.
                         </p>
                         <h4 id="simple-list-item-9" class="text-primary">Contato conosco</h4>
                         <p>

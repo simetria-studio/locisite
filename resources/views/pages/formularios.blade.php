@@ -18,7 +18,7 @@
                     <h5>Requisição de Exame para Exame Diagnóstico de Mormo</h5>
                 </div>
                 <div class="card-footer">
-                    <a target="_blank" href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx" class="btn btn-secondary">Baixe aqui</a>
+                    <a target="_blank" href="https://www.locilab.com.br/_files/ugd/8a64e2_01619f63f6704ffaa3cedd3b77a7750b.pdf" class="btn btn-secondary">Baixe aqui</a>
                 </div>
             </div>
             <div class="exame3  exames card">
