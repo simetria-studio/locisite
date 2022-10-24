@@ -77,7 +77,7 @@
                                 PESSOAS E PAIXÃO</strong>
                             PELO QUE FAZ! Temos um canal aberto com os nossos clientes, parceiros, fornecedores e
                             nos colocamos
-                            a disposição para construir a sua melhor solução que pode ser, além da qualidade, o
+                            à disposição para construir a sua melhor solução que pode ser, além da qualidade, o
                             prazo, logística, o suporte técnico e a praticidade.
                         </p>
                         <h4 id="simple-list-item-9" class="text-primary">Contato conosco</h4>
