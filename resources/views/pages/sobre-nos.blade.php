@@ -72,7 +72,7 @@
                         </p>
                         <h4 id="simple-list-item-8" class="text-primary"> Nossos valores</h4>
                         <p>
-                            Nossos valores são a <strong>CONFIANÇA, ÉTICA, RIGOR TÉCNICO, RESPONSABILIDADE, RESPEITO
+                            Nossos valores são à <strong>CONFIANÇA, ÉTICA, RIGOR TÉCNICO, RESPONSABILIDADE, RESPEITO
                                 ÀS
                                 PESSOAS E PAIXÃO</strong>
                             PELO QUE FAZ! Temos um canal aberto com os nossos clientes, parceiros, fornecedores e

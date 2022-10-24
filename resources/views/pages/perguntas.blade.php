@@ -99,7 +99,7 @@
                             <p>
                                 Se não existe outro animal para verificação e você tem certeza que esse é o genitor, deve-se
                                 fazer um contato direto com o laboratório para esclarecimento do resultado, pois pode haver
-                                problema com o laudo do  genitor .
+                                problema com o laudo do genitor .
                             </p>
                         </div>
                     </div>
@@ -118,8 +118,8 @@
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
                             aria-controls="collapse7">
-                            Preciso realizar o exame de AIE e/ou Mormo, posso contratar um veterinário ou técnico para
-                            colher a amostra A, amostra D animal?
+                            Eu posso contratar um veterinário ou um técnico da minha confiança para colher a amostra do meu
+                            animal na hora de fazer o exame de ANEMIA INFECCIOSA E/OU MORMO?
                         </button>
                     </h2>
                     <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="header7"
@@ -129,7 +129,6 @@
                                 deve ser coletada por médico veterinário com registro de habilitação comprovada para coleta
                                 de
                                 amostras de AIE/MORMO pelo MAPA.
-
                             </p>
                         </div>
                     </div>
