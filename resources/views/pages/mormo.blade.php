@@ -11,9 +11,8 @@
 
                 </div>
                 <div class="text-center mb-5">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button"
-                        href="https://www.locilab.com.br/_files/ugd/8a64e2_01619f63f6704ffaa3cedd3b77a7750b.pdf"
-                        target="_blank">Solicitar agora</a>
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{ url('pdf/requisicao_de_exame_para_diagnostico_de_mormo.pdf') }}"
+                        download>Solicitar agora</a>
                 </div>
             </div>
             <div class="col-md-6 content">

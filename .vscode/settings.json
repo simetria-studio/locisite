@@ -3,5 +3,9 @@
     "cSpell.language": "pt-BR,en-US",
     "cSpell.enableFiletypes": [
         "blade"
+    ],
+    "cSpell.words": [
+        "labelledby",
+        "tabindex"
     ]
 }
