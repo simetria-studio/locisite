@@ -66,13 +66,14 @@
                             <a href="{{ url('dna') }}" class="nav-link">DNA</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{url('perguntas-frequentes')}}" class="nav-link ">Perguntas Frequentes</a>
+                            <a href="{{ url('perguntas-frequentes') }}" class="nav-link ">Perguntas Frequentes</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{url('formularios')}}" class="nav-link  ">Solicite seu exame</a>
+                            <a href="{{ url('formularios') }}" class="nav-link  ">Solicite seu exame</a>
                         </li>
                         <li class="nav-item">
-                            <a target="_blank" href="https://www.portalgeeklab.com.br/portal/" class="btn btn-secondary">AREA DO VETERINARIO</a>
+                            <a target="_blank" href="https://www.portalgeeklab.com.br/portal/"
+                                class="btn btn-secondary">AREA DO VETERINARIO</a>
                         </li>
                     </ul>
                 </nav>
@@ -133,7 +134,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/script.js') }}"></script>
-
+    @yield('js')
 </body>
 
 </html>

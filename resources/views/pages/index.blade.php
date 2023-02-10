@@ -243,4 +243,76 @@
             </div>
         </div>
     </div>
+    <div id="popup">
+        <img class="pop-bn" src="{{ asset('img/banner.jpg') }}" alt="">
+        <button id="close-popup">FECHAR</button>
+    </div>
+    <style>
+        #popup {
+            /* display: none; */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            width: 450px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .pop-bn{
+            width: 100%;
+            
+        }
+        #popup button {
+            float: right;
+            background-color: transparent;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #popup button:hover {
+         
+            background-color: #ccc;
+         
+        }
+    </style>
+@endsection
+@section('js')
+    <script>
+        function createCookie(name, value, days) {
+            var expires;
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        $(document).ready(function() {
+            if (!readCookie("popup")) {
+                $("#popup").show();
+            }
+
+            $("#close-popup").click(function() {
+                $("#popup").hide();
+                createCookie("popup", "shown", 7);
+            });
+        });
+    </script>
 @endsection
