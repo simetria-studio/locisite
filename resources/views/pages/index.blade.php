@@ -244,7 +244,7 @@
         </div>
     </div>
     <div id="popup">
-        <img class="pop-bn" src="{{ asset('img/banner.jpg') }}" alt="">
+        <img class="pop-bn" onclick="redirectWhatsapp()" src="{{ asset('img/banner.jpg') }}" alt="">
         <button id="close-popup">FECHAR</button>
     </div>
     <style>
@@ -258,11 +258,15 @@
             padding: 20px;
             width: 450px;
             box-shadow: 0px 0px 10px gray;
+            z-index: 9999;
         }
-        .pop-bn{
+
+        .pop-bn {
             width: 100%;
-            
+            cursor: pointer;
+
         }
+
         #popup button {
             float: right;
             background-color: transparent;
@@ -272,15 +276,20 @@
             cursor: pointer;
             margin-top: 10px;
         }
+
         #popup button:hover {
-         
+
             background-color: #ccc;
-         
+
         }
     </style>
 @endsection
 @section('js')
     <script>
+        function redirectWhatsapp()
+        {
+            window.location.href = "https://api.whatsapp.com/send?phone=5531997370135&text=Olá, gostaria de mais informações sobre os serviços da Loci Genética Laboratorial.";
+        }
         function createCookie(name, value, days) {
             var expires;
             if (days) {
@@ -308,6 +317,11 @@
             if (!readCookie("popup")) {
                 $("#popup").show();
             }
+            $("body").click(function(event) {
+                if (!$(event.target).closest("#popup").length) {
+                    $("#popup").hide();
+                }
+            });
 
             $("#close-popup").click(function() {
                 $("#popup").hide();
