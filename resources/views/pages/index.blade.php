@@ -244,7 +244,7 @@
         </div>
     </div>
     <div id="popup">
-        <img class="pop-bn" onclick="redirectWhatsapp()" src="{{ asset('img/banner.jpg') }}" alt="">
+        <img class="pop-bn" onclick="redirectWhatsapp()" src="{{ asset('img/123.jpg') }}" alt="">
         <button id="close-popup">FECHAR</button>
     </div>
     <style>
