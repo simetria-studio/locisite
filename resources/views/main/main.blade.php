@@ -59,11 +59,22 @@
                         <li class="nav-item">
                             <a href="{{ url('/') }}" class="nav-link">Home</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ url('sorologia') }}" class="nav-link ">Sorologia</a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item">
-                            <a href="{{ url('dna') }}" class="nav-link">DNA</a>
+                            <a href="{{ url('genetica-veterinaria') }}" class="nav-link">Genética Veterinária</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Genética Humana
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="{{ url('genetica-humana') }}">Diagnóstico molecular de Leucemias</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a href="{{ url('perguntas-frequentes') }}" class="nav-link ">Perguntas Frequentes</a>
@@ -71,10 +82,11 @@
                         <li class="nav-item">
                             <a href="{{ url('formularios') }}" class="nav-link  ">Solicite seu exame</a>
                         </li>
-                        <li class="nav-item">
+
+                        {{-- <li class="nav-item">
                             <a target="_blank" href="https://www.portalgeeklab.com.br/portal/"
                                 class="btn btn-secondary">AREA DO VETERINARIO</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </nav>
 

@@ -16,14 +16,14 @@ a {
 
 .btn-secondary {
   color: #fff !important;
-  -webkit-backdrop-filter: #8BC53F !important;
-          backdrop-filter: #8BC53F !important;
+  -webkit-backdrop-filter: #8bc53f !important;
+          backdrop-filter: #8bc53f !important;
 }
 
 .btn-secondary:hover {
   color: #fff !important;
-  -webkit-backdrop-filter: #8BC53F !important;
-          backdrop-filter: #8BC53F !important;
+  -webkit-backdrop-filter: #8bc53f !important;
+          backdrop-filter: #8bc53f !important;
 }
 
 .btn-outline-secondary:hover {
@@ -59,7 +59,7 @@ a {
   font-weight: 400;
 }
 .nav .nav-link:hover {
-  color: #4F187B;
+  color: #4f187b;
 }
 
 .banner-principal {
@@ -80,22 +80,12 @@ a {
 }
 .banner-principal .foto {
   position: absolute;
-  -webkit-animation: animacao infinite 15s;
-          animation: animacao infinite 15s;
+  animation: animacao infinite 20s;
   opacity: 0;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-@-webkit-keyframes animacao {
-  25% {
-    opacity: 1;
-    transform: scale(1.1, 1.1);
-  }
-  50% {
-    opacity: 0;
-  }
 }
 @keyframes animacao {
   25% {
@@ -107,20 +97,19 @@ a {
   }
 }
 .banner-principal .foto:nth-child(1) {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 .banner-principal .foto:nth-child(2) {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  animation-delay: 5s;
 }
 .banner-principal .foto:nth-child(3) {
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  animation-delay: 10s;
 }
 .banner-principal .foto:nth-child(4) {
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
+  animation-delay: 15s;
+}
+.banner-principal .foto:nth-child(5) {
+  animation-delay: 20s;
 }
 .banner-principal .text-banner {
   position: relative;
@@ -159,7 +148,7 @@ a {
 }
 .cards .card-footer {
   border-top: none;
-  background-color: #8bc441;
+  background-color: #4f187b;
 }
 .cards .card-footer a {
   color: #fff;
@@ -305,6 +294,14 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.content .imagem7 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/leucemia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .menu-centralizado {
   display: flex;
@@ -323,7 +320,7 @@ footer .info {
 }
 
 .copyright {
-  background-color: #4F187B;
+  background-color: #4f187b;
 }
 
 #header {
@@ -393,7 +390,7 @@ footer .info {
     width: 20px;
   }
   #hamburger::after,
-#hamburger::before {
+  #hamburger::before {
     content: "";
     display: block;
     width: 20px;
@@ -431,15 +428,28 @@ footer .info {
 }
 
 .exames {
-  border: #8bc441 solid 2px;
-  background: #4F187B;
+  border: #4f187b solid 1px;
+  background: #8bc441;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  padding: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+.exames1 {
+  border: #8bc441 solid 1px;
+  background-color: #4f187b;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 50px;
   text-align: center;
 }
 
 .exames > .card-footer {
+  border-top: #4f187b 1px solid !important;
+}
+
+.exames1 > .card-footer {
   border-top: #8bc441 1px solid !important;
 }
 
@@ -447,27 +457,18 @@ footer .info {
   margin-top: 30px;
   margin-bottom: 30px;
   display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 250px));
-  grid-template-rows: repeat(auto, 1fr);
+  place-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-column-gap: 40px;
   grid-row-gap: 40px;
 }
 
-.slide-in-right {
-  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+.exame4 {
+  grid-area: 2/2;
 }
 
-@-webkit-keyframes slide-in-right {
-  0% {
-    transform: translateX(1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+.slide-in-right {
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 @keyframes slide-in-right {
   0% {
@@ -480,19 +481,7 @@ footer .info {
   }
 }
 .slide-in-left {
-  -webkit-animation: slide-in-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes slide-in-left {
-  0% {
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 @keyframes slide-in-left {
   0% {

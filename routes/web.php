@@ -19,11 +19,14 @@ Route::get('/', function () {
 Route::get('/sobre-nos', function () {
     return view('pages.sobre-nos');
 });
-Route::get('/sorologia', function () {
-    return view('pages.sorologia');
+// Route::get('/sorologia', function () {
+//     return view('pages.sorologia');
+// });
+Route::get('/genetica-veterinaria', function () {
+    return view('pages.genetica-veterinaria');
 });
-Route::get('/dna', function () {
-    return view('pages.dna');
+Route::get('/genetica-humana', function () {
+    return view('pages.genetica-humana');
 });
 Route::get('/contato', function () {
     return view('pages.contato');

@@ -11,6 +11,7 @@
                 <img src="{{ url('img/banner02.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner05.jpg') }}" class="foto img-fluid" alt="">
+                <img src="{{ url('img/banner06.jpg') }}" class="foto img-fluid" alt="">
             </section>
 
             <div class="container link-principal ">
@@ -243,10 +244,10 @@
             </div>
         </div>
     </div>
-    <div id="popup">
+    {{-- <div id="popup">
         <img class="pop-bn" onclick="redirectWhatsapp()" src="{{ asset('img/123.jpg') }}" alt="">
         <button id="close-popup">FECHAR</button>
-    </div>
+    </div> --}}
     <style>
         #popup {
             /* display: none; */
