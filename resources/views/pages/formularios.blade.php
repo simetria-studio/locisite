@@ -56,9 +56,8 @@
                     <h5>Diagnóstico Molecular de Leucemias</h5>
                 </div>
                 <div class="card-footer">
-                    <a target="_blank"
-                        {{-- href="https://www.locilab.com.br/_files/ugd/8a64e2_57d26fc40fad4751b9481f38a6b411f2.pdf" --}}
-                        class="btn btn-secondary">Baixe aqui</a>
+                    <a target="_blank" href="{{ url('img/oncohematologia.pdf') }}" download="FOR.ATN.15 v.4 - Ficha de Solicitação de Exames Moleculares de Oncohematologia.pdf" class="btn btn-secondary">Baixe
+                        aqui</a>
                 </div>
             </div>
         </div>

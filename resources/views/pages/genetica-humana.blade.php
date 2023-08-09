@@ -10,7 +10,7 @@
             <div class=" order-1 col-md-6  content">
                 <div class="mb-3 imagem7"></div>
                 <div class="text-center mb-5">
-                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href=""
+                    <a class="btn btn-lg d-block  btn-secondary text-light" type="button" href="{{ url('img/oncohematologia.pdf') }}" download="FOR.ATN.15 v.4 - Ficha de Solicitação de Exames Moleculares de Oncohematologia.pdf"
                         target="_blank">Solicitar agora</a>
                 </div>
             </div>
