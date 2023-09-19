@@ -108,50 +108,80 @@
         </div>
 
         <div class="text-center mb-5">
-            <h3 class="text-primary">SOROLOGIA</h3>
+            <h3 class="text-primary">DIAGNÓSTICO MOLECULAR DE LEUCEMIAS</h3>
         </div>
         <div class="perguntas  mb-5">
             <div class="accordion  " id="accordionExample">
+
+                <div class="accordion-item bg-secondary mb-3">
+                    <h2 class="accordion-header" id="header6">
+                        <button class="accordion-button collapsed btn btn-outline-primary" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false"
+                            aria-controls="collapse6">
+                            Qual o objetivo do exame de DIAGNÓSTICO MOLECULAR DE LEUCEMIAS?
+                        </button>
+                    </h2>
+                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="header6"
+                        data-bs-parent="accordionExample">
+                        <div class="accordion-body text-light">
+                            <p>
+                                Esse exame tem por objetivo detectar a presença do marcador genético para se definir o tipo
+                                específico de leucemia que acomete o paciente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="accordion-item bg-secondary mb-3">
                     <h2 class="accordion-header" id="header7">
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false"
                             aria-controls="collapse7">
-                            Eu posso contratar um veterinário ou um técnico da minha confiança para colher a amostra do meu
-                            animal na hora de fazer o exame de ANEMIA INFECCIOSA E/OU MORMO?
+                            Como ele pode contribuir com o tratamento?
                         </button>
                     </h2>
                     <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="header7"
                         data-bs-parent="accordionExample">
                         <div class="accordion-body text-light">
                             <p>
-                                deve ser coletada por médico veterinário com registro de habilitação comprovada para coleta
-                                de
-                                amostras de AIE/MORMO pelo MAPA.
+                                Ao detectar o marcador genético e definir o tipo específico de leucemia, é possível
+                                determinar o melhor tratamento e isso deve acontecer o mais rápido possível pois quanto mais
+                                precoce o início do tratamento, maior será a chance de cura.
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="accordion-item bg-secondary mb-3">
                     <h2 class="accordion-header" id="header8">
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false"
                             aria-controls="collapse8">
-                            Porque o labaratório não aceita realizar o exame se a requisição tiver campos em branco, rasuras
-                            ou sem assinatura/carimbo?
+                            Qual o material biológico a ser utilizado e em quanto tempo o exame fica pronto?
                         </button>
                     </h2>
                     <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="header8"
                         data-bs-parent="accordionExample">
                         <div class="accordion-body text-light">
                             <p>
-                                Porque esta é uma exigência dos órgãos reguladores e fiscalizadores que não aceitarão o
-                                resultado em qualquer uma dessas situações.
+                                O material indicado para realizar esse exame é a medula óssea. Após dar entrada no
+                                laboratório, o exame estará pronto em 5 dias úteis.
                             </p>
                         </div>
                     </div>
                 </div>
+
+            </div>
+        </div>
+
+        {{-- <div class="text-center mb-5">
+            <h3 class="text-primary">SOROLOGIA</h3>
+        </div>
+        <div class="perguntas  mb-5">
+            <div class="accordion  " id="accordionExample">
+
+
+
                 <div class="accordion-item bg-secondary mb-3">
                     <h2 class="accordion-header" id="header9">
                         <button class="accordion-button collapsed btn btn-outline-primary" type="button"
@@ -172,6 +202,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 @endsection

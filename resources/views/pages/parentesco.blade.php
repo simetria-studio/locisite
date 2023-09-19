@@ -1,5 +1,7 @@
 @extends('main.main')
 
+@section('title', 'Verificação de Parentesco | ')
+
 @section('content')
     <div class="container mt-5 ">
         <div class="text-center">

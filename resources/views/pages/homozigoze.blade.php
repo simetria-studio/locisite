@@ -1,5 +1,7 @@
 @extends('main.main')
 
+@section('title', 'Homozigoze | ')
+
 @section('content')
     <div class="container mt-5">
         <div class="text-center">

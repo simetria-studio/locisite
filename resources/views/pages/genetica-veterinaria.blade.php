@@ -1,11 +1,13 @@
 @extends('main.main')
 
+@section('title', 'Genética Veterinária | ')
+
 @section('content')
     <div class="container   ">
         <div class="text-center mb-5">
             <h4>DNA</h4>
         </div>
-        <div class="row ">
+        <div class="row dna-container align-items-center ">
             <div class="col-sm-6 col-md-3 mb-3">
                 <div class="link text-center">
                     <a href="{{ url('genotipagem') }}">

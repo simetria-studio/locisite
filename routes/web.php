@@ -25,9 +25,9 @@ Route::get('/sobre-nos', function () {
 Route::get('/genetica-veterinaria', function () {
     return view('pages.genetica-veterinaria');
 });
-Route::get('/genetica-humana', function () {
+Route::get('/leucemias', function () {
     return view('pages.genetica-humana');
-});
+})->name('leucemias');
 Route::get('/contato', function () {
     return view('pages.contato');
 });
@@ -55,9 +55,9 @@ Route::get('/mormo', function () {
 Route::get('/perguntas-frequentes', function () {
     return view('pages.perguntas');
 });
-Route::get('/bovinos', function () {
-    return view('pages.saiba-mais.bovinos');
-});
+// Route::get('/bovinos', function () {
+//     return view('pages.saiba-mais.bovinos');
+// });
 Route::get('/equinos', function () {
     return view('pages.saiba-mais.equinos');
 });

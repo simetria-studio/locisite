@@ -1,5 +1,5 @@
 @extends('main.main')
-
+@section('title', 'Equinos | ')
 @section('content')
     <div class="row mt-3">
         <div class="col-md-12 text-center text-primary">

@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{-- <link rel="icon" href="{{ asset('img/logo.png') }}" type="image/png" sizes="32x32"> --}}
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,135 +18,165 @@
     <link rel="stylesheet" href="{{ asset('css/cores.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/mediaquery.min.css') }}">
-    <title>LociLab</title>
+    <title>@yield('title') LociLab </title>
 </head>
 
 <body>
-    <div class="ante-header bg-primary">
-        <div class="container">
-            <div class="navegacao">
-                <div class="row">
-                    <div class="email text-md-start text-center col-md-6 col-12 py-md-2">
-                        <i class="bi bi-envelope-fill text-light"></i>
-                        <span class="text-light">atendimento@locilab.com.br</span>
-                    </div>
-                    <div class="redes-sociais text-md-end text-center col-md-6 col-12 py-md-2">
-                        <a class="text-light" target="_blank"
-                            href="https://www.facebook.com/profile.php?id=100080642630494"><i
-                                class="fs-5 bi bi-facebook"></i></a>
-                        <a class="text-light" target="_blank" href="https://www.instagram.com/loci_lab/"><i
-                                class="fs-5 bi bi-instagram"></i></a>
-                        <a class="text-light" target="_blank" href="https://wa.me/553197370135"><i
-                                class="fs-5 bi bi-whatsapp"></i></a>
+    <div class="custom-container">
+        <div class="custom-content">
+            <div class="ante-header bg-primary">
+                <div class="container">
+                    <div class="navegacao">
+                        <div class="row">
+                            <div class="email text-md-start text-center col-md-6 col-12 py-md-2">
+                                <i class="bi bi-envelope-fill text-light"></i>
+                                <span class="text-light">atendimento@locilab.com.br</span>
+                            </div>
+                            <div class="redes-sociais text-md-end text-center col-md-6 col-12 py-md-2">
+                                <a class="text-light" target="_blank"
+                                    href="https://www.facebook.com/profile.php?id=100080642630494"><i
+                                        class="fs-5 bi bi-facebook"></i></a>
+                                <a class="text-light" target="_blank" href="https://www.instagram.com/loci_lab/"><i
+                                        class="fs-5 bi bi-instagram"></i></a>
+                                <a class="text-light" target="_blank" href="https://wa.me/553197370135"><i
+                                        class="fs-5 bi bi-whatsapp"></i></a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-
             </div>
-        </div>
-    </div>
-    <header id="header">
-        <div class="container">
-            <div class="menu-centralizado">
-                <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0  text-decoration-none">
-                    <img src="{{ url('img/logo01.png') }}" alt="">
-                </a>
+            <header id="header">
+                <div class="container">
+                    <div class="menu-centralizado">
+                        <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0  text-decoration-none">
+                            <img src="{{ url('img/logo01.png') }}" alt="">
+                        </a>
 
-                <nav id="nav">
-                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
-                        aria-expanded="false">
-                        <span id="hamburger"></span>
-                    </button>
-                    <ul class="nav" id="menu" role="menu">
-                        <li class="nav-item">
-                            <a href="{{ url('/') }}" class="nav-link">Home</a>
-                        </li>
-                        {{-- <li class="nav-item">
+                        <nav id="nav">
+                            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                                aria-expanded="false">
+                                <span id="hamburger"></span>
+                            </button>
+                            <ul class="nav" id="menu" role="menu">
+                                <li class="nav-item">
+                                    <a href="{{ url('/') }}" class="nav-link">Home</a>
+                                </li>
+                                {{-- <li class="nav-item">
                             <a href="{{ url('sorologia') }}" class="nav-link ">Sorologia</a>
                         </li> --}}
-                        <li class="nav-item">
-                            <a href="{{ url('genetica-veterinaria') }}" class="nav-link">Genética Veterinária</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Genética Humana
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="{{ url('genetica-humana') }}">Diagnóstico molecular de Leucemias</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Genética Veterinária</a>
+                                    <ul class="dropdown-menu">
+                                        <a class="dropdown-item" href="{{ url('genetica-veterinaria') }}">DNA</a>
+                                    </ul>
                                 </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ url('perguntas-frequentes') }}" class="nav-link ">Perguntas Frequentes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ url('formularios') }}" class="nav-link  ">Solicite seu exame</a>
-                        </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Genética Humana
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="{{ url('leucemias') }}">Diagnóstico
+                                                molecular de Leucemias</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ url('perguntas-frequentes') }}" class="nav-link ">Perguntas
+                                        Frequentes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ url('formularios') }}" class="nav-link  ">Solicite seu exame</a>
+                                </li>
 
-                        {{-- <li class="nav-item">
+                                {{-- <li class="nav-item">
                             <a target="_blank" href="https://www.portalgeeklab.com.br/portal/"
                                 class="btn btn-secondary">AREA DO VETERINARIO</a>
                         </li> --}}
-                    </ul>
-                </nav>
+                            </ul>
+                        </nav>
 
-            </div>
-        </div>
-    </header>
-    <main class="mb-5">
-        @yield('content')
-    </main>
-    <footer class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 info">
-                    <div>
-                        <h4 class="text-uppercase">Contatos</h4>
-                        <p>
-                            31 3681-4331 <br>
-                            <a class="text-light" target="_blank" href="https://wa.me/553197370135">
-                                31 99737-0135 <i class="fs-5 mx-2 bi bi-whatsapp"></i> <br>
-                            </a>
-                            atendimento@locilab.com.br
-
-                        </p>
                     </div>
                 </div>
-                <div class="col-md-4 info">
-                    <div>
-                        <h4 class="text-uppercase">Localização</h4>
-                        <p>
-                            Rua Coronel Durães, 170, slj 01, <br>
-                            Bela Vista - Lagoa Santa l MG <br>
-                            CEP: 33239-206 <br>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 info ">
-                    <div class="">
-                        <h4 class="text-uppercase">Siga-nos</h4>
-                        <a class="text-light fs-3 mx-2" target="_blank"
-                            href="https://www.facebook.com/profile.php?id=100080642630494"><i
-                                class="bi bi-facebook"></i></a>
-                        <a class="text-light fs-3 mx-2" target="_blank" href="https://www.instagram.com/loci_lab/"><i
-                                class="bi bi-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
+            </header>
+            <main class="mb-5">
+                @yield('content')
+            </main>
         </div>
 
-    </footer>
-    <div class="copyright">
-        <div class="text-center py-1">
-            <p class="text-light my-auto">Labloci © 2022 Todos os Direitos Reservados </p>
+        <footer class="footer bg-primary ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 info">
+                        <div>
+                            <h4 class="text-uppercase">Contatos</h4>
+                            <p>
+                                31 3681-4331 <br>
+                                <a class="text-light" target="_blank" href="https://wa.me/553197370135">
+                                    31 99737-0135 <i class="fs-5 mx-2 bi bi-whatsapp"></i> <br>
+                                </a>
+                                atendimento@locilab.com.br
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 info">
+                        <div>
+                            <h4 class="text-uppercase">Localização</h4>
+                            <p>
+                                Rua Coronel Durães, 170, slj 01, <br>
+                                Bela Vista - Lagoa Santa l MG <br>
+                                CEP: 33239-206 <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 info ">
+                        <div class="">
+                            <h4 class="text-uppercase">Siga-nos</h4>
+                            <a class="text-light fs-3 mx-2" target="_blank"
+                                href="https://www.facebook.com/profile.php?id=100080642630494"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a class="text-light fs-3 mx-2" target="_blank"
+                                href="https://www.instagram.com/loci_lab/"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="text-center py-1">
+                <p class="text-light my-auto">Labloci © 2022 Todos os Direitos Reservados </p>
+            </div>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
     <script src="{{ asset('js/script.js') }}"></script>
+    <script>
+        $(document).ready(function() {
+            adjustFooter();
+
+            $(window).resize(function() {
+                adjustFooter();
+            });
+        });
+
+        function adjustFooter() {
+            const containerHeight = $('.custom-container').height();
+            const contentHeight = $('.custom-content').height();
+            const footer = $('.footer');
+
+            if (containerHeight > contentHeight) {
+                footer.addClass('fixed-footer');
+            } else {
+                footer.removeClass('fixed-footer');
+            }
+        }
+    </script>
     @yield('js')
 </body>
 

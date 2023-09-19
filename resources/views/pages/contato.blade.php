@@ -1,5 +1,5 @@
 @extends('main.main')
-
+@section('title', 'Contato | ')
 @section('content')
 <div class="container">
     <div class="row">

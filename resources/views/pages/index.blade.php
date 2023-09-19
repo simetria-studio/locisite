@@ -9,7 +9,7 @@
             <section class="galeria">
                 <img src="{{ url('img/banner01.jpeg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner02.jpg') }}" class="foto img-fluid" alt="">
-                <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt="">
+                {{-- <img src="{{ url('img/banner04.jpg') }}" class="foto img-fluid" alt=""> --}}
                 <img src="{{ url('img/banner05.jpg') }}" class="foto img-fluid" alt="">
                 <img src="{{ url('img/banner06.jpg') }}" class="foto img-fluid" alt="">
             </section>
@@ -51,23 +51,22 @@
                     </div>
                 </div>
                 <div class="col-md-3   mb-3">
-                    <div class="card card-banner mx-auto bg-secondary">
+                    <div class="card card-banner mx-auto bg-primary">
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="{{ url('img/card-bovino.png') }}" class="" alt="">
+                                <img src="{{ url('img/leucemiasagudas.jpg') }}" class="" alt="">
                             </div>
                             <div class="text-light">
-                                <h4 class="text-center text-primary">Bovinos</h4>
+                                <h4 class="text-center text-secondary">Leucemias</h4>
                                 <p class="card-text text-center text-light">
-                                    O Brasil tem o maior rebanho bovino do mundo, com 222 milhões de animais, segundo dados
-                                    do
-                                    Ministério da Agricultura, Pecuária e Abastecimento...
+                                    As leucemias são doenças genéticas que possuem marcadores específicos e que podem ser
+                                    utilizados para diagnosticar o tipo exato de leucemia que o paciente tem.
                                 </p>
                             </div>
 
                         </div>
-                        <div class="card-footer text-center">
-                            <a href="{{ url('bovinos') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
+                        <div class="card-footer bg-secondary text-center">
+                            <a href="{{ route('leucemias') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +98,7 @@
             <div class="">
                 <h2 class="mb-5 text-primary">Nossos Serviços</h2>
             </div>
-            <div class="row ">
+            <div class="row justify-content-center ">
                 <div class="col-6 col-md-4 col-xl-2  mb-3">
                     <div class="link text-center">
 
@@ -138,20 +137,20 @@
 
                 <div class="col-6 col-md-4  col-xl-2  mb-3">
                     <div class="link text-center">
-                        <a href="{{ url('aie') }}">
-                            <img src="{{ asset('img/aie.png') }}" class="img-fluid mb-1" alt=""><br>
-                            AIE
+                        <a href="{{ url('leucemias') }}">
+                            <img src="{{ asset('img/globulos.png') }}" class="img-fluid mb-1" alt=""><br>
+                            Leucemias
                         </a>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-xl-2   mb-3">
+                {{--  <div class="col-6 col-md-4 col-xl-2   mb-3">
                     <div class="link text-center">
                         <a href="{{ url('mormo') }}">
                             <img src="{{ asset('img/mormo.png') }}" class="mb-1" alt=""> <br>
                             Mormo
                         </a>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
@@ -287,10 +286,11 @@
 @endsection
 @section('js')
     <script>
-        function redirectWhatsapp()
-        {
-            window.location.href = "https://api.whatsapp.com/send?phone=5531997370135&text=Olá, gostaria de mais informações sobre os serviços da Loci Genética Laboratorial.";
+        function redirectWhatsapp() {
+            window.location.href =
+                "https://api.whatsapp.com/send?phone=5531997370135&text=Olá, gostaria de mais informações sobre os serviços da Loci Genética Laboratorial.";
         }
+
         function createCookie(name, value, days) {
             var expires;
             if (days) {

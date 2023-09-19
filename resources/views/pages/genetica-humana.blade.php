@@ -1,5 +1,7 @@
 @extends('main.main')
 
+@section('title', 'Diagnóstico Molecular de Leucemias | ')
+
 @section('content')
     <div class="container">
         <div class="text-center">

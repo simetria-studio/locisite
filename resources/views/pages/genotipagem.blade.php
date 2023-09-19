@@ -1,5 +1,6 @@
 @extends('main.main')
 
+@section('title', 'Genotipagem | ')
 @section('content')
     <div class="container mt-5 ">
         <div class="text-center">

@@ -1,5 +1,7 @@
 @extends('main.main')
 
+@section('title', 'Sobre Nós | ')
+
 @section('content')
     <div id="active">
         <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="false">
