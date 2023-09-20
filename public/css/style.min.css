@@ -187,11 +187,12 @@ a {
 }
 
 .link {
-  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 4px 4px rgba(37, 240, 19, 0.1);
   border-radius: 15px;
   border: #8bc441 1px solid;
-  padding: 20px;
-  height: 180px;
+  padding: 10px;
+  max-width: 250px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -519,6 +520,11 @@ footer .info {
     opacity: 1;
   }
 }
-.dna-container {
-  min-height: 400px;
+.genetica-content {
+  margin: 0 auto;
+  max-width: 800px;
+  min-height: 500px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
 }/*# sourceMappingURL=style.min.css.map */

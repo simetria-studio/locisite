@@ -69,7 +69,7 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">Genética Veterinária</a>
                                     <ul class="dropdown-menu">
-                                        <a class="dropdown-item" href="{{ url('genetica-veterinaria') }}">DNA</a>
+                                        <a class="dropdown-item" href="{{ route('genetica-veterinaria') }}">DNA</a>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -79,8 +79,7 @@
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-2">
                                         <li>
-                                            <a class="dropdown-item dropdown-item-2" href="{{ url('leucemias') }}">Diagnóstico
-                                                molecular de Leucemias</a>
+                                            <a class="dropdown-item dropdown-item-2" href="{{ route('genetica-humana') }}">Diagnósticos</a>
                                         </li>
                                     </ul>
                                 </li>

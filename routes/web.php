@@ -22,12 +22,27 @@ Route::get('/sobre-nos', function () {
 // Route::get('/sorologia', function () {
 //     return view('pages.sorologia');
 // });
+
+
 Route::get('/genetica-veterinaria', function () {
     return view('pages.genetica-veterinaria');
-});
+})->name('genetica-veterinaria');
+
 Route::get('/leucemias', function () {
-    return view('pages.genetica-humana');
+    return view('pages.leucemias');
 })->name('leucemias');
+
+
+Route::get('/genetica-humana', function () {
+    return view('pages.genetica-humana');
+})->name('genetica-humana');
+
+
+Route::get('/diagnostico', function () {
+    return view('pages.diagnostico');
+})->name('diagnostico');
+
+
 Route::get('/contato', function () {
     return view('pages.contato');
 });
