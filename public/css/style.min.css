@@ -30,6 +30,17 @@ a {
   color: #fff !important;
 }
 
+.dropdown-item {
+  color: #000 !important;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  color: #fff !important;
+  background-color: #8bc53f !important;
+  text-align: center;
+}
+
 .ante-header {
   background-color: #684286 !important;
   width: 100%;

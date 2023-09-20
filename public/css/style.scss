@@ -28,6 +28,16 @@ a {
 .btn-outline-secondary:hover {
   color: #fff !important;
 }
+.dropdown-item {
+  color: #000 !important;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  color: #fff !important;
+  background-color: #8bc53f !important;
+  text-align: center;
+}
 
 // MAIN
 .ante-header {
