@@ -77,9 +77,9 @@
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Genética Humana
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropdown-menu-2">
                                         <li>
-                                            <a class="dropdown-item" href="{{ url('leucemias') }}">Diagnóstico
+                                            <a class="dropdown-item dropdown-item-2" href="{{ url('leucemias') }}">Diagnóstico
                                                 molecular de Leucemias</a>
                                         </li>
                                     </ul>

@@ -34,6 +34,10 @@ a {
   background-color: #8bc53f !important;
 }
 
+.dropdown-menu-2 {
+  background-color: #4f187b !important;
+}
+
 .dropdown-item {
   color: #000 !important;
   text-align: center;
@@ -43,6 +47,12 @@ a {
 .dropdown-item:hover {
   color: #fff !important;
   background-color: #4f187b !important;
+  text-align: center;
+}
+
+.dropdown-item-2:hover {
+  color: #fff !important;
+  background-color: #8bc53f !important;
   text-align: center;
 }
 
