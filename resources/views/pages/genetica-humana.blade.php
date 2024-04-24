@@ -20,7 +20,7 @@
                 <div class="link text-center ">
                     <a type="button" href="{{ route('teste.rapidos') }}">
                         <img src="{{ asset('img/covid.jpg') }}" class=" mb-2" alt=""> <br>
-                        Testes Rapidos
+                        Testes Rápidos
                     </a>
                 </div>
             </div>
