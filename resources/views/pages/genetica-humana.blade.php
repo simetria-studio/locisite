@@ -16,6 +16,14 @@
                     </a>
                 </div>
             </div>
+            <div class="col-sm-6 col-md-3 mb-3 ">
+                <div class="link text-center ">
+                    <a type="button" href="{{ route('teste.rapidos') }}">
+                        <img src="{{ asset('img/covid.jpg') }}" class=" mb-2" alt=""> <br>
+                        Testes Rapidos
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

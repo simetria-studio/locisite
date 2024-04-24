@@ -32,6 +32,10 @@ Route::get('/leucemias', function () {
     return view('pages.leucemias');
 })->name('leucemias');
 
+Route::get('/testes-rapidos', function () {
+    return view('pages.testes-rapidos');
+})->name('teste.rapidos');
+
 
 Route::get('/genetica-humana', function () {
     return view('pages.genetica-humana');

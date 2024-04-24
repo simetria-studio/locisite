@@ -31,13 +31,13 @@
         <div class="cards slide-in-left d-none d-md-block mb-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-3  mb-3">
-                    <div class="card card-banner mx-auto bg-secondary">
+                    <div class="card card-banner mx-auto bg-primary">
                         <div class="card-body">
                             <div class="text-center">
                                 <img src="{{ url('img/card-equino.png') }}" class="" alt="">
                             </div>
                             <div class="text-light">
-                                <h4 class="text-center text-primary">Equinos</h4>
+                                <h4 class="text-center text-secondary">Equinos</h4>
                                 <p class="card-text text-center text-light">
                                     A criação de cavalos caracteriza-se como uma importante fonte de negócios no Brasil
                                     movimentando
@@ -45,7 +45,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="card-footer text-center">
+                        <div class="card-footer bg-secondary text-center">
                             <a href="{{ url('equinos') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
@@ -70,25 +70,27 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4 colum mb-3">
-                    <div class="card card-banner card3 bg-light">
+                <div class="col-md-3   mb-3">
+                    <div class="card card-banner mx-auto bg-primary">
                         <div class="card-body">
-                            <h3 class="card-title py-4 text-primary text-uppercase">
-                                A Loci disponibiliza seu DNA 24 horas, 2 dias, 5 dias e 10 dias
-                                {{-- Exame de DNA 15 dias por apenas R$ 65,00 --}}
-                                {{-- COMPRE PELA NOSSA LOJA <br>
-                                ONLINE COM TODA PRATICIDADE --}}
-                            </h3>
-                            <p class="card-text mb-5">
-                                Solicite seus exames de DNA com toda praticidade e segurança, clicando no botão abaixo.
-                            </p>
-                            <a target="_blank"
-                                href="https://4a4c1db8-3175-43c2-933e-2563969564b1.filesusr.com/ugd/8a64e2_6c24d65e55a2481eb1a1d1fa2a7fa862.xlsx?dn=FOR.ATN.08%20v.7%20-%20Ficha%20de%20Solicita%C3%A7%C3%A3o%20de%20Exame%20de%20Genotipagem%20Animal.xlsx"
-                                class="btn btn-lg btn-outline-secondary">SOLICITE AGORA</a>
+                            <div class="text-center">
+                                <img src="{{ url('img/covid.jpg') }}" class="" alt="">
+                            </div>
+                            <div class="text-light">
+                                <h4 class="text-center text-secondary">Testes Rápidos</h4>
+                                <p class="card-text text-center text-light">
+                                    Disponibilizamos os testes rápidos para DENGUE, COVID, INFLUENZA e CHIKUNGUNYA no conforto da sua casa.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="card-footer bg-secondary text-center">
+                            <a href="{{ route('leucemias') }}">SAIBA MAIS <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
+
+       
             </div>
         </div>
 
@@ -140,6 +142,15 @@
                         <a href="{{ url('leucemias') }}">
                             <img src="{{ asset('img/globulos.png') }}" class="img-fluid mb-1" alt=""><br>
                             Leucemias
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4  col-xl-2  mb-3">
+                    <div class="link text-center">
+                        <a href="{{ url('teste.rapidos') }}">
+                            <img src="{{ asset('img/covid.jpg') }}" class="img-fluid mb-1" alt=""><br>
+                            Testes Rápidos
                         </a>
                     </div>
                 </div>
@@ -243,10 +254,10 @@
             </div>
         </div>
     </div>
-    {{-- <div id="popup">
-        <img class="pop-bn" onclick="redirectWhatsapp()" src="{{ asset('img/123.jpg') }}" alt="">
+    <div id="popup">
+        <img class="pop-bn" onclick="redirectWhatsapp()" src="{{ asset('img/banner2.jpg') }}" alt="">
         <button id="close-popup">FECHAR</button>
-    </div> --}}
+    </div>
     <style>
         #popup {
             /* display: none; */
